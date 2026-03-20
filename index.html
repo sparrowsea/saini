@@ -7,15 +7,16 @@
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f4f8; color: #333; margin: 0; padding-bottom: 30px; display: flex; flex-direction: column; align-items: center; }
         
+        /* Premium Breathing Header */
         .main-header { 
-            width: 100%; background: #1a252f; color: #ffffff; text-align: center; padding: 20px 0; 
-            font-size: 2.5rem; font-weight: bold; letter-spacing: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
-            margin-bottom: 25px;
-            animation: breathing 5s ease-in-out infinite;
+            width: 100%; background: #1a252f; color: #ffffff; text-align: center; padding: 25px 0; 
+            font-size: 2.8rem; font-weight: bold; letter-spacing: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.4); 
+            margin-bottom: 30px;
+            animation: salariaBreathing 6s ease-in-out infinite;
         }
-        @keyframes breathing {
-            0%, 100% { opacity: 0.7; text-shadow: 0 0 5px rgba(255,255,255,0.1); }
-            50% { opacity: 1; text-shadow: 0 0 15px rgba(255,255,255,0.5); }
+        @keyframes salariaBreathing {
+            0%, 100% { opacity: 0.8; text-shadow: 0 0 8px rgba(255,255,255,0.2); transform: scale(1); }
+            50% { opacity: 1; text-shadow: 0 0 20px rgba(255,255,255,0.6); transform: scale(1.02); }
         }
 
         .main-wrapper { display: flex; flex-wrap: wrap; gap: 20px; max-width: 1100px; width: 95%; justify-content: center; }
@@ -86,7 +87,7 @@
 
         <h3 class="subject-title jkpsc-title">JKPSC Module</h3>
         <div class="card-grid">
-            <div class="test-card jkpsc-card" onclick="openPolityDashboard()"><h3>Polity</h3><p>71 Chapters & Models</p><button class="btn-start">Open</button></div>
+            <div class="test-card jkpsc-card" onclick="openPolityDashboard()"><h3>Polity</h3><p>71 Chapters</p><button class="btn-start">Open</button></div>
             <div class="test-card jkpsc-card" onclick="startTest('jkpsc/geography/full')"><h3>Geography</h3><p>Indian & World</p><button class="btn-start">Start</button></div>
             <div class="test-card jkpsc-card" onclick="startTest('jkpsc/history/full')"><h3>History</h3><p>Modern & Ancient</p><button class="btn-start">Start</button></div>
             <div class="test-card jkpsc-card" onclick="startTest('jkpsc/economics/full')"><h3>Economics</h3><p>Indian Economy</p><button class="btn-start">Start</button></div>
@@ -100,8 +101,6 @@
         <h3 class="subject-title jkpsc-title" style="border-bottom-color:#805ad5;">Polity Modules <button class="btn-back" onclick="backToMain()">← Back</button></h3>
         <h4 style="color:#4a5568; margin-top:30px; font-size:1.3rem;">Chapter-wise Tests</h4>
         <div class="card-grid" id="polity-chapters-grid" style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));"></div>
-        <h4 style="color:#4a5568; margin-top:40px; font-size:1.3rem;">Model Papers</h4>
-        <div class="card-grid" id="polity-models-grid" style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));"></div>
     </div>
 </div>
 
@@ -133,11 +132,9 @@
     let activeQuizData = [], currentQ = 0, userAnswers = [], endTime, timerInterval, currentContext = 'main';
 
     function generatePolityDashboard() {
-        let chHTML = '', mpHTML = '';
+        let chHTML = '';
         for(let i=1; i<=71; i++) chHTML += `<div class="test-card polity-sub jkpsc-card" onclick="startTest('jkpsc/polity/ch${i}')"><h3>Chapter ${i}</h3><button class="btn-start">Start</button></div>`;
-        for(let i=1; i<=10; i++) mpHTML += `<div class="test-card polity-sub jkpsc-card" onclick="startTest('jkpsc/polity/mp${i}')"><h3>Model ${i}</h3><button class="btn-start">Start</button></div>`;
         document.getElementById('polity-chapters-grid').innerHTML = chHTML;
-        document.getElementById('polity-models-grid').innerHTML = mpHTML;
     }
 
     function openPolityDashboard() { document.getElementById('main-dashboard').style.display = 'none'; document.getElementById('polity-dashboard').style.display = 'block'; currentContext = 'polity'; generatePolityDashboard(); }
@@ -150,8 +147,8 @@
         document.getElementById('test-wrapper').style.display = 'flex';
         document.getElementById('question-text').innerText = "Accessing Database...";
 
-        const fullPath = `data/${path}.json`;
-        console.log("Attempting to fetch:", fullPath);
+        // ENSURE LOWERCASE PATHING
+        const fullPath = `data/${path.toLowerCase()}.json`;
 
         try {
             const res = await fetch(fullPath);
@@ -169,11 +166,12 @@
                 btn.onclick = () => loadQuestion(i); grid.appendChild(btn);
             });
             
+            // 1 MINUTE PER QUESTION RULE
             endTime = Date.now() + (activeQuizData.length * 60 * 1000);
             startTimer();
             loadQuestion(0);
         } catch (e) {
-            alert(`⚠️ Missing file at:\n${fullPath}\n\nCheck folder names and file names (must be lowercase).`);
+            alert(`⚠️ Error loading database.\nPath attempted: ${fullPath}\n\nEnsure folders are lowercase and file exists.`);
             closeTest();
         }
     }
