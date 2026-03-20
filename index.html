@@ -3,23 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JKSSB Computer Science Mock Test</title>
+    <title>SALARIA - Computer Science Portal</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #f0f4f8;
             color: #333;
             margin: 0;
-            padding: 10px;
+            padding: 0 0 20px 0;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .main-header {
+            width: 100%;
+            background: #1a252f;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 2.2rem;
+            font-weight: bold;
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         }
         .main-wrapper {
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
             max-width: 1000px;
-            width: 100%;
+            width: 95%;
         }
         .quiz-container {
             background: #fff;
@@ -46,8 +59,8 @@
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
-        h1 { margin: 0; color: #2c3e50; font-size: 1.4rem; }
-        .timer { font-size: 1.2rem; font-weight: bold; color: #d9534f; background: #fdf0ef; padding: 5px 10px; border-radius: 5px;}
+        h1 { margin: 0; color: #2c3e50; font-size: 1.5rem; }
+        .timer { font-size: 1.3rem; font-weight: bold; color: #d9534f; background: #fdf0ef; padding: 6px 12px; border-radius: 5px; border: 1px solid #f5c6cb;}
         h2 { font-size: 1.1rem; color: #34495e; min-height: 60px;}
         .options { margin: 20px 0; }
         .option-label {
@@ -65,7 +78,7 @@
         input[type="radio"] { display: none; }
         .btn-group { display: flex; justify-content: space-between; margin-top: 20px; gap: 10px;}
         button {
-            padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; flex: 1; transition: 0.3s;
+            padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; flex: 1; transition: 0.3s; font-size: 1rem;
         }
         .btn-nav { background: #6c757d; color: white; }
         .btn-nav:hover { background: #5a6268; }
@@ -83,22 +96,22 @@
         .palette-btn.active { box-shadow: 0 0 0 3px #007bff; border-color: #007bff; }
         
         /* Result Screen */
-        .result-screen { display: none; }
+        .result-screen { display: none; width: 95%; }
         .score-box { background: #e8f4f8; padding: 20px; border-radius: 8px; text-align: center; margin-bottom: 20px;}
-        .score-text { font-size: 2rem; font-weight: bold; color: #0056b3; }
-        .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 15px; font-size: 1.1rem;}
-        .review-item { border-bottom: 1px solid #eee; padding: 15px 0; }
-        .correct-ans { color: #28a745; font-weight: bold; }
-        .wrong-ans { color: #dc3545; font-weight: bold; }
-        .explanation { background: #fdfdfd; border-left: 4px solid #007bff; padding: 10px; margin-top: 10px; font-size: 0.9rem; }
+        .score-text { font-size: 2.2rem; font-weight: bold; color: #0056b3; margin-bottom: 10px;}
+        .review-item { border-bottom: 1px solid #ddd; padding: 20px 0; }
+        .review-item p { margin: 5px 0; }
+        .explanation { background: #fdfdfd; border-left: 4px solid #007bff; padding: 12px; margin-top: 15px; font-size: 0.95rem; color: #555; }
     </style>
 </head>
 <body>
 
+<div class="main-header">SALARIA</div>
+
 <div class="main-wrapper" id="test-wrapper">
     <div class="quiz-container">
         <div class="header-top">
-            <h1>JKSSB Mock Test</h1>
+            <h1>Practice Test</h1>
             <div class="timer" id="timer-display">60:00</div>
         </div>
         
@@ -112,29 +125,27 @@
             <button class="btn-nav" id="next-btn" onclick="nextQuestion()">Next</button>
         </div>
         <div class="btn-group">
-            <button class="btn-submit" onclick="submitTest()">Submit Final Test</button>
+            <button class="btn-submit" onclick="submitTest(false)">Submit & Review</button>
         </div>
     </div>
 
     <div class="sidebar">
         <h3 class="palette-title">Question Palette</h3>
-        <p style="font-size: 0.8rem; text-align: center; margin: 0;">Green = Answered | Gray = Unanswered</p>
+        <p style="font-size: 0.8rem; text-align: center; margin: 0; color: #666;">Green = Answered | Gray = Unanswered</p>
         <div class="palette-grid" id="palette-grid"></div>
     </div>
 </div>
 
 <div class="quiz-container result-screen" id="result-screen" style="max-width: 800px; margin: auto;">
-    <h1 style="text-align: center;">Test Successfully Submitted</h1>
+    <h1 style="text-align: center; color: #2c3e50;">Test Completed</h1>
     <div class="score-box">
         <div class="score-text">Total Score: <span id="final-score"></span></div>
-        <div class="stat-grid">
-            <div style="color: #28a745;">Correct: <span id="stat-correct"></span></div>
-            <div style="color: #dc3545;">Incorrect: <span id="stat-wrong"></span></div>
-            <div>Unattempted: <span id="stat-skipped"></span></div>
-            <div>Negative Marks: -<span id="stat-negative"></span></div>
-        </div>
     </div>
-    <h2>Detailed Review</h2>
+    
+    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #eee; padding-bottom: 10px;">
+        <h2 style="margin: 0;">Detailed Review</h2>
+    </div>
+    
     <div id="review-container"></div>
 </div>
 
@@ -217,14 +228,12 @@
 
     document.getElementById('total-q').innerText = quizData.length;
 
-    // Initialize the test
     function initTest() {
         buildPalette();
         loadQuestion(0);
         startTimer();
     }
 
-    // Build the sidebar numbers
     function buildPalette() {
         const grid = document.getElementById('palette-grid');
         grid.innerHTML = '';
@@ -238,17 +247,14 @@
         }
     }
 
-    // Load a specific question
     function loadQuestion(index) {
         currentQ = index;
         document.getElementById('current-q').innerText = currentQ + 1;
         document.getElementById('question-text').innerText = quizData[currentQ].question;
         
-        // Update Palette styling
         document.querySelectorAll('.palette-btn').forEach(b => b.classList.remove('active'));
         document.getElementById('pal-' + currentQ).classList.add('active');
 
-        // Render Options
         const optsContainer = document.getElementById('options-container');
         optsContainer.innerHTML = '';
         
@@ -261,23 +267,19 @@
             optsContainer.appendChild(label);
         });
 
-        // Button states
         document.getElementById('prev-btn').disabled = (currentQ === 0);
         document.getElementById('next-btn').disabled = (currentQ === quizData.length - 1);
     }
 
-    // Handle user selecting an option
     function selectOption(index) {
         userAnswers[currentQ] = index;
         document.getElementById('pal-' + currentQ).classList.add('answered');
-        loadQuestion(currentQ); // Re-render to show selection highlight
+        loadQuestion(currentQ); 
     }
 
-    // Navigation buttons
     function nextQuestion() { if(currentQ < quizData.length - 1) loadQuestion(currentQ + 1); }
     function prevQuestion() { if(currentQ > 0) loadQuestion(currentQ - 1); }
 
-    // Timer Logic
     function startTimer() {
         timerInterval = setInterval(() => {
             timeLeft--;
@@ -288,21 +290,21 @@
             if (timeLeft <= 0) {
                 clearInterval(timerInterval);
                 alert("Time is up! Auto-submitting the test.");
-                submitTest();
+                submitTest(true);
             }
         }, 1000);
     }
 
-    // Submit and Calculate Score
-    function submitTest() {
-        if(timeLeft > 0 && !confirm("Are you sure you want to submit the test?")) return;
+    function submitTest(autoSubmit = false) {
+        if(!autoSubmit && !confirm("Are you sure you want to submit and review?")) return;
         
         clearInterval(timerInterval);
         document.getElementById('test-wrapper').style.display = 'none';
         document.getElementById('result-screen').style.display = 'block';
 
-        let correct = 0, wrong = 0, skipped = 0;
+        let correct = 0;
         const reviewContainer = document.getElementById('review-container');
+        reviewContainer.innerHTML = '';
 
         for (let i = 0; i < quizData.length; i++) {
             const uAns = userAnswers[i];
@@ -311,35 +313,32 @@
             qDiv.className = 'review-item';
 
             let statusHTML = '';
-            if (uAns === null) {
-                skipped++;
-                statusHTML = `<span style="color: gray;">Not Attempted</span>`;
-            } else if (uAns === cAns) {
+            
+            if (uAns === cAns) {
                 correct++;
-                statusHTML = `<span class="correct-ans">Correct ✅</span>`;
+                statusHTML = `<p>Your Answer: <span style="color: #28a745; font-weight: bold;">${quizData[i].options[uAns]} ✅</span></p>`;
+            } else if (uAns === null) {
+                statusHTML = `
+                    <p style="color: #6c757d; font-weight: bold;">Not Attempted</p>
+                    <p>Correct Answer: <span style="color: #28a745; font-weight: bold;">${quizData[i].options[cAns]}</span></p>
+                `;
             } else {
-                wrong++;
-                statusHTML = `<span class="wrong-ans">Incorrect ❌ (You chose: ${quizData[i].options[uAns]})</span>`;
+                statusHTML = `
+                    <p>Your Answer: <span style="color: #dc3545; font-weight: bold;">${quizData[i].options[uAns]} ❌</span></p>
+                    <p>Correct Answer: <span style="color: #28a745; font-weight: bold;">${quizData[i].options[cAns]}</span></p>
+                `;
             }
 
             qDiv.innerHTML = `
-                <p><strong>Q${i+1}. ${quizData[i].question}</strong></p>
-                <p>Status: ${statusHTML}</p>
-                <p>Correct Answer: <strong>${quizData[i].options[cAns]}</strong></p>
+                <p style="font-size: 1.1rem; color: #2c3e50;"><strong>Q${i+1}. ${quizData[i].question}</strong></p>
+                ${statusHTML}
                 <div class="explanation"><em>Explanation:</em> ${quizData[i].explanation}</div>
             `;
             reviewContainer.appendChild(qDiv);
         }
 
-        // JKSSB Style Scoring: +1 for correct, -0.25 for incorrect
-        let negativeMarks = wrong * 0.25;
-        let totalScore = correct - negativeMarks;
-
-        document.getElementById('stat-correct').innerText = correct;
-        document.getElementById('stat-wrong').innerText = wrong;
-        document.getElementById('stat-skipped').innerText = skipped;
-        document.getElementById('stat-negative').innerText = negativeMarks.toFixed(2);
-        document.getElementById('final-score').innerText = `${totalScore.toFixed(2)} / ${quizData.length}`;
+        document.getElementById('final-score').innerText = `${correct} / ${quizData.length}`;
+        window.scrollTo(0, 0);
     }
 
     window.onload = initTest;
