@@ -1,0 +1,86 @@
+[
+    {
+        "question": "1. Which of the following statements about the Constitution of India is/are correct?\n1. Popular sovereignty and adult franchise are the basic features of the Constitution.\n2. The Constitution, in so far as the division of powers between the Centre and the States is concerned, is rigid.\n3. The Constitution recognises the interdependence of civil and economic rights.\n4. The Constitution mentions direct control by the people such as referendum, initiative and recall.\nSelect the correct answer from the codes given below:",
+        "options": ["(a) Only 1", "(b) 1, 2 and 4", "(c) 2, 3 and 4", "(d) 1, 2 and 3"],
+        "answer": 3,
+        "explanation": "The Constitution of India provides for a representative parliamentary democracy and does not include instruments of direct democracy like referendum, initiative, or recall."
+    },
+    {
+        "question": "2. Consider the following statements related to secularism in India:\n1. It entails strict separation of religion from politics.\n2. It bans parties with religious affiliations from contesting elections.\n3. It grants religious liberty to all communities.\n4. It accepts community personal laws.\nWhich of the statements given above are correct?",
+        "options": ["(a) 3 and 4", "(b) 1 and 2", "(c) 1, 3 and 4", "(d) 1, 2, 3 and 4"],
+        "answer": 0,
+        "explanation": "Indian secularism follows a positive concept where the state gives equal respect to all religions and protects community personal laws, rather than a strict separation as seen in the West."
+    },
+    {
+        "question": "3. Which one of the following Schedules of the Constitution of India incorporates salaries and allowances of members of Parliament, the Chairman and Deputy Chairman of the Rajya Sabha, and Speaker and Deputy Speaker of the Lok Sabha, as one of the items?",
+        "options": ["(a) Fifth Schedule", "(b) Second Schedule", "(c) Ninth Schedule", "(d) Tenth Schedule"],
+        "answer": 1,
+        "explanation": "The Second Schedule contains provisions relating to the emoluments, allowances, and privileges of the President, Governors, Speakers, Judges, and the CAG."
+    },
+    {
+        "question": "4. Match List I with List II and select the correct answer using the codes given below:\nList-I (Subject)\nA. Finance, Property, Contracts and Suits\nB. The Union Judiciary\nC. The Executive of States\nD. Relations between the Union and the States\nList-II (Part of the Constitution of India)\n1. Part V\n2. Part XII\n3. Part XI\n4. Part VI",
+        "options": ["(a) A-4, B-3, C-2, D-1", "(b) A-2, B-1, C-4, D-3", "(c) A-4, B-1, C-2, D-3", "(d) A-2, B-3, C-4, D-1"],
+        "answer": 1,
+        "explanation": "Part XII deals with Finance; Part V with the Union (including Judiciary); Part VI with the States; and Part XI with Relations between the Union and States."
+    },
+    {
+        "question": "5. Which one of the following is not a salient feature of the Constitution of India?",
+        "options": ["(a) Written Constitution and supremacy of the Constitution", "(b) Quasi-federal structure", "(c) Committed Judiciary", "(d) Distribution of Powers"],
+        "answer": 2,
+        "explanation": "The Indian Constitution provides for an Independent Judiciary, not a 'Committed Judiciary'."
+    },
+    {
+        "question": "6. Consider the following statements:\nThe Indian Constitution is:\n1. an unwritten constitution.\n2. a written constitution.\n3. largely based on the Government of India Act, 1935.\n4. a gift of British Parliament.\nOf these statements:",
+        "options": ["(a) 2 and 4 are correct", "(b) 2 and 3 are correct", "(c) 1 and 4 are correct", "(d) 1 and 3 are correct"],
+        "answer": 1,
+        "explanation": "The Indian Constitution is the lengthiest written constitution in the world and draws its structural part heavily from the Government of India Act, 1935."
+    },
+    {
+        "question": "7. The Second Schedule of the Constitution of India does not contain the provisions as to who among the following?",
+        "options": ["(a) The President", "(b) The Speaker of the House of People", "(c) The Comptroller and Auditor-General of India", "(d) The Chairman, Union Public Service Commission"],
+        "answer": 3,
+        "explanation": "The Second Schedule covers the President, Governors, Speakers, Judges, and the CAG, but does not include the Chairman of the UPSC."
+    },
+    {
+        "question": "8. Match List I with List II and select the correct answer using the codes given below:\nList-I (Provisions in the Constitution of India)\nA. Emergency Provisions\nB. Fundamental Rights\nC. Parliamentary System\nD. Directive Principles of State Policy\nList-II (Source)\n1. Ireland\n2. The United Kingdom\n3. The United States of America\n4. Germany",
+        "options": ["(a) A-4, B-1, C-2, D-3", "(b) A-2, B-3, C-4, D-1", "(c) A-4, B-3, C-2, D-1", "(d) A-2, B-1, C-4, D-3"],
+        "answer": 2,
+        "explanation": "Emergency provisions were influenced by Germany; Fundamental Rights by the USA; the Parliamentary system by the UK; and DPSPs by Ireland."
+    },
+    {
+        "question": "9. Which one of the following pairs is not correctly matched?",
+        "options": ["(a) Languages : Eighth Schedule", "(b) The forms of oaths or affirmations : Second Schedule", "(c) Allocation of seats in the Council of States : Fourth Schedule", "(d) Provisions as to disqualification on the ground of defection : Tenth Schedule"],
+        "answer": 1,
+        "explanation": "Forms of Oaths or Affirmations are contained in the Third Schedule, not the Second."
+    },
+    {
+        "question": "10. Consider the following statements with reference to Secularism in India:\n1. Secularism means that the State has no recognised religion of State.\n2. Secularism means that the State treats all the religions equally.\n3. Secularism means that the State regulates the relation of man with God.\nWhich of these statements are correct?",
+        "options": ["(a) 1, 2 and 3", "(b) 1 and 2", "(c) 2 and 3", "(d) 1 and 3"],
+        "answer": 1,
+        "explanation": "In India, secularism implies that the state is neutral toward all religions and protects all equally, but it does not regulate the individual's spiritual relation with God."
+    },
+    {
+        "question": "11. Assertion (A): Not contented with merely laying down the fundamental principles of governance, the framers of the Indian Constitution followed the Government of India Act, 1919 in providing matters of administrative details.\nReason (R): The framers of the Indian Constitution had the apprehension that in the prevailing conditions of the country at that time, the Constitution might be subverted unless the form of administration was also included.",
+        "options": ["(a) Both A and R are individually true and R is the correct explanation of A", "(b) Both A and R are individually true but R is not the correct explanation of A", "(c) A is true but R is false", "(d) A is false but R is true"],
+        "answer": 3,
+        "explanation": "The framers followed the Government of India Act, 1935 (not 1919) for administrative details."
+    },
+    {
+        "question": "12. Which one of the following statements correctly describes the Seventh Schedule of the Constitution of India?",
+        "options": ["(a) It contains the languages recognised in the Constitution.", "(b) It contains the provisions regarding the administration of tribal areas.", "(c) It lists distribution of powers between the Union and the States.", "(d) It deals with the salaries and emoluments of the constitutional functionaries."],
+        "answer": 2,
+        "explanation": "The Seventh Schedule contains the Union, State, and Concurrent lists that distribute legislative powers between the Union and the States."
+    },
+    {
+        "question": "13. Consider the following statements:\nThe salient features of the Indian Constitution provide for:\n1. Single citizenship for the whole of India.\n2. Strictly federal form of government.\n3. Unique blend of rigidity and flexibility.\nOf the above statements:",
+        "options": ["(a) 1, 2 and 3 are correct", "(b) 1 and 2 are correct", "(c) 2 and 3 are correct", "(d) 1 and 3 are correct"],
+        "answer": 3,
+        "explanation": "The Indian Constitution is 'federal in form but unitary in spirit,' making it quasi-federal rather than strictly federal."
+    },
+    {
+        "question": "14. Match List I with List II and select the correct answer using the codes given below:\nList-I (Schedule of the Constitution of India)\nA. Ninth Schedule\nB. Tenth Schedule\nC. Eleventh Schedule\nD. Sixth Schedule\nList-II (Content)\n1. Provisions regarding Panchayati Raj Institutions\n2. Provisions regarding land reforms legislations\n3. Provisions regarding administration of tribal areas\n4. Provisions regarding the distribution of powers between the Centre and States\n5. Provisions regarding the disqualification on ground of defection",
+        "options": ["(a) A-3, B-1, C-4, D-2", "(b) A-2, B-5, C-1, D-3", "(c) A-3, B-5, C-1, D-2", "(d) A-2, B-1, C-4, D-3"],
+        "answer": 1,
+        "explanation": "The Ninth Schedule relates to land reforms; the Tenth to anti-defection; the Eleventh to Panchayati Raj; and the Sixth to tribal area administration."
+    }
+]
