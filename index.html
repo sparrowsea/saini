@@ -70,78 +70,45 @@
 
 <script>
     const quizData = [
+        // EASTER EGG
         { question: "Who is the bosss?", options: ["A) Rajput hunde surme", "B) Gagan", "C) Akash", "D) Avneet", "E) Sumit"], answer: 0, explanation: "Rajput hunde surme! The undisputed boss." },
 
-        // --- SECTION 1: INVENTORS (STATEMENT BASED) ---
-        { 
-            question: "Consider the following statements regarding the 'Von Neumann' architecture:\n1. It is based on the stored-program computer concept.\n2. It uses separate physical memory for instructions and data.\nWhich of the above is/are correct?", 
-            options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], 
-            answer: 0, 
-            explanation: "Statement 1 is correct. Statement 2 is incorrect because Von Neumann architecture uses a SINGLE memory for both data and instructions." 
-        },
-        { 
-            question: "With reference to the evolution of computers, consider the following:\n1. Herman Hollerith developed the Tabulating Machine for the 1890 US Census.\n2. The Transistor was invented at Bell Labs in 1947.\nWhich of the above is/are correct?", 
-            options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], 
-            answer: 2, 
-            explanation: "Both are historical facts. Hollerith's work led to the formation of IBM." 
-        },
-        { 
-            question: "Consider the following pairs:\n1. COBOL: Grace Hopper\n2. C++: Bjarne Stroustrup\n3. Java: Dennis Ritchie\nWhich of the above are correctly matched?", 
-            options: ["A) 1 and 2 only", "B) 2 and 3 only", "C) 1 and 3 only", "D) 1, 2 and 3"], 
-            answer: 0, 
-            explanation: "Java was developed by James Gosling, not Dennis Ritchie (who created C)." 
-        },
+        // --- SECTION 1: INVENTORS & FATHERS ---
+        { question: "Consider the following statements:\n1. Charles Babbage is known as the Father of the Computer.\n2. Lady Ada Lovelace is regarded as the first computer programmer.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both statements are historically correct." },
+        { question: "Consider the following statements regarding the invention of the Web:\n1. Tim Berners-Lee invented the World Wide Web in 1989.\n2. Vint Cerf is widely known as the 'Father of the Internet'.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both statements are correct. Vint Cerf co-developed TCP/IP, earning him the title 'Father of the Internet'." },
+        { question: "Consider the following statements:\n1. Douglas Engelbart is credited with the invention of the computer mouse.\n2. Christopher Sholes invented the QWERTY keyboard layout.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both statements are factual and correctly identify the inventors." },
+        { question: "Consider the following statements regarding early email systems:\n1. Ray Tomlinson is considered the creator of the first electronic email system.\n2. The '@' symbol was introduced by Larry Page to separate the user from the machine name.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 0, explanation: "Statement 2 is wrong. Ray Tomlinson introduced the '@' symbol, not Larry Page." },
+        { question: "Consider the following statements about Artificial Intelligence:\n1. Alan Turing coined the term 'Artificial Intelligence' in 1955.\n2. John McCarthy is widely recognized as the Father of Artificial Intelligence.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 1, explanation: "Statement 1 is incorrect. John McCarthy coined the term, not Alan Turing." },
+        { question: "Consider the following pairs of inventors and their creations:\n1. Dennis Ritchie - C programming language\n2. Bjarne Stroustrup - Python programming language\nWhich of the above pairs is/are correctly matched?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 0, explanation: "Statement 2 is incorrect. Bjarne Stroustrup created C++, while Python was created by Guido van Rossum." },
+        { question: "Consider the following statements:\n1. The Integrated Circuit (IC) was independently invented by Jack Kilby and Robert Noyce.\n2. The first commercial microprocessor (Intel 4004) was developed by Gordon Moore.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 0, explanation: "Statement 2 is incorrect. The Intel 4004 was primarily developed by Marcian 'Ted' Hoff and Federico Faggin." },
+        { question: "Consider the following statements regarding computer architecture:\n1. The 'Stored-Program Concept' was introduced by John von Neumann.\n2. Von Neumann architecture uses separate memory units for data and instructions.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 0, explanation: "Statement 2 is incorrect. Von Neumann architecture uses a SINGLE shared memory for both data and instructions. Harvard architecture uses separate memories." },
+        { question: "Consider the following statements:\n1. Linus Torvalds created the Linux operating system kernel.\n2. Herman Hollerith invented the punch card tabulating machine.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both statements are correct. Hollerith's company later became IBM." },
+        { question: "Consider the following statements about programming language pioneers:\n1. James Gosling created the Java programming language.\n2. Grace Hopper invented the first compiler.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both statements are correct." },
 
-        // --- SECTION 2: ABBREVIATIONS ---
-        { 
-            question: "Consider the following statements about memory units:\n1. ASCII stands for American Standard Code for Information Interchange.\n2. EBCDIC is an 8-bit character encoding used primarily on IBM mainframe systems.\nWhich of the above is/are correct?", 
-            options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], 
-            answer: 2, 
-            explanation: "Both statements correctly describe these character encoding standards." 
-        },
-        { 
-            question: "With reference to Internet protocols, consider the following:\n1. SMTP: Simple Mail Transfer Protocol\n2. FTP: File Tracking Protocol\n3. HTTPS: HyperText Transfer Protocol Secure\nWhich of the above is/are correctly matched?", 
-            options: ["A) 1 and 2 only", "B) 1 and 3 only", "C) 2 and 3 only", "D) 1, 2 and 3"], 
-            answer: 1, 
-            explanation: "FTP stands for File Transfer (not Tracking) Protocol." 
-        },
-        { 
-            question: "Regarding computer components, consider the following:\n1. SRAM stands for Static Random Access Memory and is used for Cache.\n2. DRAM stands for Direct Random Access Memory and is used for RAM.\nWhich is correct?", 
-            options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], 
-            answer: 0, 
-            explanation: "DRAM stands for Dynamic (not Direct) Random Access Memory." 
-        },
+        // --- SECTION 2: FULL FORMS & ABBREVIATIONS ---
+        { question: "Consider the following statements regarding memory abbreviations:\n1. RAM stands for Read Access Memory.\n2. ROM stands for Random Only Memory.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 3, explanation: "Both are incorrect. RAM = Random Access Memory. ROM = Read Only Memory." },
+        { question: "Consider the following statements:\n1. GUI stands for Graphical User Interface.\n2. BIOS stands for Basic Input Output System.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both full forms are completely correct." },
+        { question: "Consider the following statements regarding network terms:\n1. URL stands for Uniform Resource Locator.\n2. HTTP stands for HyperText Transmission Process.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 0, explanation: "Statement 2 is incorrect. HTTP stands for HyperText Transfer Protocol." },
+        { question: "Consider the following statements:\n1. PDF stands for Portable Document Format.\n2. SMTP stands for Simple Mail Transfer Protocol.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both full forms are correct. PDF is by Adobe, and SMTP is used for sending emails." },
+        { question: "Consider the following statements about networking hardware:\n1. LAN stands for Local Area Network.\n2. WAN stands for Wireless Area Network.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 0, explanation: "Statement 2 is incorrect. WAN stands for Wide (not Wireless) Area Network." },
+        { question: "Consider the following statements regarding computer addresses:\n1. IP stands for Internet Protocol.\n2. MAC stands for Machine Access Control.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 0, explanation: "Statement 2 is incorrect. MAC stands for Media (not Machine) Access Control." },
+        { question: "Consider the following statements about computer storage:\n1. SSD stands for Solid State Drive.\n2. HDD stands for High Density Disk.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 0, explanation: "Statement 2 is incorrect. HDD stands for Hard Disk Drive." },
+        { question: "Consider the following statements:\n1. VPN stands for Virtual Private Network.\n2. DNS stands for Domain Name System.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both statements are correct network terminology." },
+        { question: "Consider the following statements regarding hardware:\n1. SMPS stands for Switched-Mode Power Supply.\n2. USB stands for Universal Serial Bus.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both full forms are completely correct." },
+        { question: "Consider the following statements about input devices:\n1. OMR stands for Optical Mark Recognition.\n2. MICR stands for Magnetic Ink Character Recognition.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both are correct. OMR is used for checking MCQ sheets, and MICR is used in banking for cheques." },
 
-        // --- SECTION 3: SHORTCUTS ---
-        { 
-            question: "Consider the following MS-Word keyboard shortcuts:\n1. Ctrl + Shift + > is used to increase the font size.\n2. Ctrl + Shift + F12 is used to open the 'Save As' dialog box.\nWhich of the above is/are correct?", 
-            options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], 
-            answer: 0, 
-            explanation: "F12 is for Save As. Ctrl+Shift+F12 is actually the Print shortcut." 
-        },
-        { 
-            question: "Regarding Windows navigation, consider the following:\n1. Windows Key + D minimizes all open windows to show the desktop.\n2. Alt + F4 closes the currently active item.\nWhich of the above is/are correct?", 
-            options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], 
-            answer: 2, 
-            explanation: "Both are standard and essential Windows OS shortcuts." 
-        },
-        { 
-            question: "Consider the following statements about Excel shortcuts:\n1. F2 is used to edit the active cell.\n2. Ctrl + ; (semicolon) inserts the current time.\nWhich of the above is/are correct?", 
-            options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], 
-            answer: 0, 
-            explanation: "Ctrl + ; inserts the current DATE. Ctrl + Shift + ; inserts the current TIME." 
-        }
+        // --- SECTION 3: SHORTCUT KEYS ---
+        { question: "Consider the following statements regarding MS Office shortcuts:\n1. Ctrl + Z is used to Undo the last action.\n2. Ctrl + Y is used to Redo the last action.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both statements are correct universal shortcuts in Windows." },
+        { question: "Consider the following statements:\n1. Ctrl + X is used to Copy selected text.\n2. Ctrl + V is used to Paste copied text.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 1, explanation: "Statement 1 is incorrect. Ctrl + X is used to CUT, while Ctrl + C is used to COPY." },
+        { question: "Consider the following statements regarding MS Word alignment shortcuts:\n1. Ctrl + E is used to Center Align text.\n2. Ctrl + J is used to Justify text.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both statements are correct paragraph alignment shortcuts in MS Word." },
+        { question: "Consider the following statements about MS Excel:\n1. The F2 key is used to edit the active cell.\n2. Ctrl + ; (semicolon) is used to insert the current date.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both statements correctly describe MS Excel functionality." },
+        { question: "Consider the following statements regarding MS PowerPoint shortcuts:\n1. Ctrl + N inserts a New Slide in the current presentation.\n2. Ctrl + M opens a completely new presentation file.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 3, explanation: "Both are incorrect because they are swapped. Ctrl + M inserts a New Slide, and Ctrl + N opens a New Presentation file." },
+        { question: "Consider the following statements:\n1. The F7 key is used to check Spelling and Grammar in MS Office.\n2. Ctrl + P opens the print dialog box.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both statements correctly describe standard MS Office shortcuts." },
+        { question: "Consider the following statements regarding Windows OS shortcuts:\n1. Alt + Tab allows you to switch between open applications.\n2. Alt + F4 minimizes the currently active window.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 0, explanation: "Statement 2 is incorrect. Alt + F4 CLOSES the currently active window/application, it does not minimize it." },
+        { question: "Consider the following statements:\n1. Shift + Delete permanently deletes a file without sending it to the Recycle Bin.\n2. Windows Key + L immediately locks the PC screen.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both statements are correct Windows OS shortcut commands." },
+        { question: "Consider the following statements regarding browser shortcuts:\n1. Ctrl + T opens a new browser tab.\n2. Ctrl + H opens the browser history.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 2, explanation: "Both shortcuts are universally standard across modern web browsers like Chrome and Edge." },
+        { question: "Consider the following statements regarding text navigation shortcuts:\n1. Ctrl + Home moves the cursor to the beginning of the document.\n2. Ctrl + End moves the cursor to the end of the line.\nWhich of the statements given above is/are correct?", options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"], answer: 0, explanation: "Statement 2 is incorrect. Ctrl + End moves the cursor to the END OF THE DOCUMENT. To move to the end of a line, you just press 'End'." }
     ];
-
-    // Filling the rest with unique variations to ensure 30 distinct questions for now
-    for(let i=11; i<=30; i++) {
-        quizData.push({
-            question: `Advanced Statement Question ${i}:\n1. BIOS is stored in the CMOS chip.\n2. Post (Power-On Self-Test) is performed by the operating system during boot.\nWhich of the above is correct?`,
-            options: ["A) 1 only", "B) 2 only", "C) Both 1 and 2", "D) Neither 1 nor 2"],
-            answer: 0,
-            explanation: "POST is performed by the BIOS/Firmware, not the Operating System."
-        });
-    }
 
     let currentQ = 0;
     let userAnswers = new Array(quizData.length).fill(null);
