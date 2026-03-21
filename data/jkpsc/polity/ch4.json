@@ -1,13 +1,68 @@
 [
-    [span_36](start_span){ "question": "1. Correct order in which these appear in the Preamble:\n1. Equality\n2. Liberty\n3. Justice\n4. Fraternity\n5. Unity & Integrity", "options": ["(a) 5, 1, 2, 4, 3", "(b) 3, 2, 1, 4, 5", "(c) 3, 1, 2, 5, 4", "(d) 1, 2, 4, 3, 5"], "answer": 1, "explanation": "The sequence is Justice, Liberty, Equality, Fraternity, Unity and Integrity[span_36](end_span)." },
-    { "question": "2. [span_37](start_span)The philosophical postulates of the Constitution are based on:", "options": ["(a) Nehru Report 1928", "(b) Objectives Resolution 1947", "(c) Gandhi's Young India", "(d) INC Complete Independence Res"], "answer": 1, "explanation": "The Preamble is based on the Objectives Resolution drafted by Nehru[span_37](end_span)." },
-    { "question": "3. [span_38](start_span)The Preamble to the Indian Constitution is:", "options": ["(a) Not a part", "(b) Part but confers no power", "(c) Part and used for interpreting ambiguity", "(d) Part and confers power like other provisions"], "answer": 2, "explanation": "In the Kesavananda Bharati case, it was ruled a part of the Constitution and helps in interpretation[span_38](end_span)." },
-    { "question": "4. Which one of the following statements is correct? [span_39](start_span)The Preamble declares the resolve to secure:", "options": ["(a) Freedom of residence", "(b) Right to establish education inst", "(c) Liberty of belief, faith and worship", "(d) Right to primary education"], "answer": 2, "explanation": "The Preamble expressly mentions Liberty of belief, faith, and worship[span_39](end_span)." },
-    { "question": "5. [span_40](start_span)The term 'economic justice' in the Preamble is a resolution for:", "options": ["(a) Equal distribution of wealth", "(b) Economy in justice admin", "(c) Socio-economic revolution", "(d) Cheap justice to the poor"], "answer": 0, "explanation": "Economic justice implies non-discrimination based on wealth and narrowing inequalities[span_40](end_span)." },
-    { "question": "6. Match Terms with Implications:\nA. Republic - 1. Not a hereditary monarch\nB. Secular - 2. No state religion\nC. Democratic - 3. Authority from people's will\nD. [span_41](start_span)Sovereign - 4. Free internal/external affairs", "options": ["(a) A-1, B-2, C-3, D-4", "(b) A-1, B-3, C-2, D-4", "(c) A-2, B-3, C-1, D-4", "(d) A-3, B-2, C-1, D-4"], "answer": 0, "explanation": "Correct definitions of the core terms in the Preamble[span_41](end_span)." },
-    { "question": "7. [span_42](start_span)The text of the Preamble aims to secure:", "options": ["(a) FRs to all", "(b) FDs to citizens", "(c) Dignity and Unity/Integrity", "(d) Service security to Gov servants"], "answer": 2, "explanation": "The Preamble aims for fraternity assuring individual dignity and national unity[span_42](end_span)." },
-    { "question": "8. [span_43](start_span)Which term was NOT included in a 'Union of Trinity' by Dr. Ambedkar?", "options": ["(a) Liberty", "(b) Flexibility", "(c) Equality", "(d) Fraternity"], "answer": 1, "explanation": "Ambedkar's Trinity consisted of Liberty, Equality, and Fraternity[span_43](end_span)." },
-    { "question": "9. [span_44](start_span)The words 'Socialist' and 'Secular' were inserted in the Preamble by the:", "options": ["(a) 15th Amendment", "(b) 39th Amendment", "(c) 42nd Amendment", "(d) 44th Amendment"], "answer": 2, "explanation": "The 42nd Amendment (1976) added Socialist, Secular, and Integrity[span_44](end_span)." },
-    { "question": "10. [span_45](start_span)The sequence in which terms are mentioned in the Preamble:", "options": ["(a) Sovereign, Socialist, Secular, Democratic, Republic", "(b) Socialist, Secular, Sovereign, Democratic, Republic", "(c) Secular, Sovereign, Democratic, Socialist, Republic", "(d) Sovereign, Democratic, Secular, Socialist, Republic"], "answer": 0, "explanation": "The standard sequence as per the current Preamble[span_45](end_span)." },
-    { "question": "11. [span_46](start_span)The Preamble to the Constitution of India:", "options": ["(a) Is not a part", "(b) Indicates objectives to be achieved", "(c) Cannot be amended", "(d) Is a source of authority"], "answer": 1, "explanation": "The Preamble serves as a summary of the objectives of the Constitution[span_46](end_span)." }
+    {
+        "question": "1. What is the correct order in which the following terms appear in the Preamble to the Constitution of India?\n1. Equality\n2. Liberty\n3. Justice\n4. Fraternity\n5. Unity and Integrity",
+        "options": ["(a) 5, 1, 2, 4, 3", "(b) 3, 2, 1, 4, 5", "(c) 3, 1, 2, 5, 4", "(d) 1, 2, 4, 3, 5"],
+        "answer": 1,
+        "explanation": "The correct sequence in the Preamble is: Justice, Liberty, Equality, Fraternity, and Unity and Integrity."
+    },
+    {
+        "question": "2. The philosophical postulates of the Constitution of India are based on:",
+        "options": ["(a) Nehru Report, 1928", "(b) Objectives Resolution of Pandit Nehru, 1947", "(c) Mahatma Gandhi's article 'Independence in Young India', 1922", "(d) Indian National Congress's Resolution for Complete Independence, 1929"],
+        "answer": 1,
+        "explanation": "The Preamble is a modified version of the 'Objectives Resolution' drafted and moved by Jawaharlal Nehru and adopted by the Constituent Assembly."
+    },
+    {
+        "question": "3. The Preamble to the Indian Constitution is:",
+        "options": ["(a) Not a part of the Constitution.", "(b) A part of the Constitution but it neither confers any powers nor imposes any duties nor can it be of any use in interpreting other provisions of the Constitution.", "(c) A part of the Constitution and can be of use in interpreting other provisions of the Constitution in cases of ambiguity.", "(d) A part of the Constitution and it confers powers and imposes duties as any other provisions of the Constitution."],
+        "answer": 2,
+        "explanation": "In the Kesavananda Bharati case (1973), the Supreme Court held that the Preamble is a part of the Constitution and plays a significant role in the interpretation of statutes and provisions of the Constitution."
+    },
+    {
+        "question": "4. Which one of the following statements is correct? The Preamble to the Indian Constitution declares the resolve of the people of India to secure to all its citizens:",
+        "options": ["(a) Freedom of residence anywhere in the country.", "(b) Right to establish and administer educational institutions of choice.", "(c) Liberty of belief, faith and worship.", "(d) Right to education at primary level."],
+        "answer": 2,
+        "explanation": "The Preamble expressly mentions securing to all its citizens 'Liberty of thought, expression, belief, faith and worship'."
+    },
+    {
+        "question": "5. The term 'economic justice' in the Preamble to the Constitution of India, is a resolution for:",
+        "options": ["(a) Equal distribution of wealth.", "(b) Economy in the administration of justice.", "(c) Socio-economic revolution.", "(d) Cheap justice to the poor."],
+        "answer": 0,
+        "explanation": "Economic justice implies the non-discrimination between people on the basis of economic factors. It involves the elimination of glaring inequalities in wealth, income and property."
+    },
+    {
+        "question": "6. Match List I with List II and select the correct answer using the codes given below:\nList-I (Terms in the Preamble)\nA. Republic\nB. Secular\nC. Democratic\nD. Sovereign\nList-II (Implications)\n1. Head of the State is not a hereditary monarch\n2. State does not recognise any religion as a state religion\n3. Government gets its authority from the will of the people\n4. State is free to conduct its own internal and external affairs",
+        "options": ["(a) A-1, B-2, C-3, D-4", "(b) A-1, B-3, C-2, D-4", "(c) A-2, B-3, C-1, D-4", "(d) A-3, B-2, C-1, D-4"],
+        "answer": 0,
+        "explanation": "These are the exact constitutional definitions of the core philosophical terms used in the Preamble."
+    },
+    {
+        "question": "7. The text of the Preamble to the Constitution of India aims to secure:",
+        "options": ["(a) Fundamental rights to all individuals.", "(b) Fundamental duties to citizens of India.", "(c) Dignity of the individual and unity and integrity of the nation.", "(d) Security of service to Government servants."],
+        "answer": 2,
+        "explanation": "The Preamble explicitly aims to promote 'Fraternity assuring the dignity of the individual and the unity and integrity of the Nation'."
+    },
+    {
+        "question": "8. Which of the following terms was not included in a 'Union of Trinity' by Dr. B.R. Ambedkar in his concluding speech in the Constituent Assembly?",
+        "options": ["(a) Liberty", "(b) Flexibility", "(c) Equality", "(d) Fraternity"],
+        "answer": 1,
+        "explanation": "Dr. Ambedkar stated that Liberty, Equality, and Fraternity form a union of trinity in the sense that to divorce one from the other is to defeat the very purpose of democracy."
+    },
+    {
+        "question": "9. The words 'Socialist' and 'Secular' were inserted in the Preamble to the Constitution by the:",
+        "options": ["(a) 15th Amendment Act", "(b) 39th Amendment Act", "(c) 42nd Amendment Act", "(d) 44th Amendment Act"],
+        "answer": 2,
+        "explanation": "The 42nd Constitutional Amendment Act of 1976 added three new words to the Preamble: Socialist, Secular, and Integrity."
+    },
+    {
+        "question": "10. The sequence in which the given terms are mentioned in the Preamble to the Constitution of India is:",
+        "options": ["(a) Sovereign, Socialist, Secular, Democratic, Republic", "(b) Socialist, Secular, Sovereign, Democratic, Republic", "(c) Secular, Sovereign, Democratic, Socialist, Republic", "(d) Sovereign, Democratic, Secular, Socialist, Republic"],
+        "answer": 0,
+        "explanation": "The Preamble declares India to be a 'Sovereign Socialist Secular Democratic Republic'."
+    },
+    {
+        "question": "11. The Preamble to the Constitution of India:",
+        "options": ["(a) Is not a part of the Constitution.", "(b) Indicates the objectives to be achieved.", "(c) Cannot be amended by the Parliament.", "(d) Is a source of authority of the Constitution of India."],
+        "answer": 1,
+        "explanation": "The Preamble embodies the basic philosophy and fundamental values on which the Constitution is based, indicating the objectives the framers intended to achieve."
+    }
 ]
