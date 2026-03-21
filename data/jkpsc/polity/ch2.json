@@ -1,13 +1,68 @@
 [
-    [span_24](start_span){ "question": "1. Consider the statements regarding the Constituent Assembly:\n1. Members elected from Hindu, Muslim, Sikh, Christian constituents.\n2. Chairman of Union Constitution Committee was Sardar Patel.\n3. Total strength was 389.\n4. Drafting Committee had eight members.", "options": ["(a) 1, 2, 3 and 4", "(b) 1, 2 and 4", "(c) 3 only", "(d) 1 only"], "answer": 2, "explanation": "The total strength was 389. Jawaharlal Nehru was chairman of the Union Constitution Committee[span_24](end_span)." },
-    { "question": "2. Which provisions were given immediate effect from November 26, 1949?\n1. Citizenship\n2. Emergency provisions\n3. Elections\n4. [span_25](start_span)Federal system", "options": ["(a) Only 1", "(b) 2 and 3", "(c) 1 and 4", "(d) 1 and 3"], "answer": 3, "explanation": "Citizenship, elections, and provisional parliament were enacted immediately[span_25](end_span)." },
-    { "question": "3. [span_26](start_span)What was the procedure followed for adoption of the Constitution of India?", "options": ["(a) Submitted for ratification", "(b) Assent of Governor-General", "(c) Interim gov approval", "(d) Signatures of President and Members of CA"], "answer": 3, "explanation": "The Constitution was adopted after signatures of the President and members of the Constituent Assembly[span_26](end_span)." },
-    { "question": "4. Who among the following was the Chairman of the States Committee of the Constituent Assembly?", "options": ["(a) Dr. B.R. [span_27](start_span)Ambedkar", "(b) Jawaharlal Nehru", "(c) Dr. Rajendra Prasad", "(d) Sardar Patel"], "answer": 1, "explanation": "Jawaharlal Nehru chaired the States Committee[span_27](end_span)." },
-    { "question": "5. [span_28](start_span)The Constitution of India as framed by the Constituent Assembly was finally adopted and enacted on:", "options": ["(a) 15th Aug 1947", "(b) 30th Jan 1948", "(c) 26th Nov 1949", "(d) 26th Jan 1950"], "answer": 2, "explanation": "The Constitution was adopted on Nov 26, 1949[span_28](end_span)." },
-    { "question": "6. Match CA Committee with Chairman:\nA. Steering - Rajendra Prasad\nB. FR Sub-Committee - J.B. Kripalani\nC. Union Constitution - J. Nehru\nD. [span_29](start_span)Provincial Constitution - S. Patel", "options": ["(a) A-2, B-3, C-4, D-1", "(b) A-1, B-4, C-3, D-2", "(c) A-2, B-4, C-3, D-1", "(d) A-1, B-3, C-4, D-2"], "answer": 0, "explanation": "Matches for the key committees of the Constituent Assembly[span_29](end_span)." },
-    { "question": "7. [span_30](start_span)The members of the Constituent Assembly were:", "options": ["(a) Directly elected", "(b) Nominated by GG", "(c) Elected by Prov Legislatures and nominated by Rulers", "(d) Nominated by Congress and League"], "answer": 2, "explanation": "Members were partly elected by provincial assemblies and partly nominated by princely states[span_30](end_span)." },
-    { "question": "8. Who among the following was the Constitutional Advisor to the Constituent Assembly?", "options": ["(a) Dr. B.R. Ambedkar", "(b) K.M. Munshi", "(c) Sir B.N. Rau", "(d) T.T. Krishnamachari"], "answer": 2, "explanation": "Sir B.N. [span_31](start_span)Rau was the constitutional advisor[span_31](end_span)." },
-    { "question": "9. [span_32](start_span)Assertion (A): The CA of 1946 was not elected on the basis of universal adult franchise.\nReason (R): It was constituted under the Cabinet Mission Plan scheme.", "options": ["(a) Both A and R are true and R is correct explanation", "(b) Both A and R are true but R is not correct explanation", "(c) A is true but R is false", "(d) A is false but R is true"], "answer": 0, "explanation": "The CA was elected indirectly by members of Provincial Assemblies[span_32](end_span)." },
-    { "question": "10. Who among the following moved the 'Objectives Resolution' in the Constituent Assembly?", "options": ["(a) B.N. Rao", "(b) B.R. [span_33](start_span)Ambedkar", "(c) Jawaharlal Nehru", "(d) Rajendra Prasad"], "answer": 2, "explanation": "Jawaharlal Nehru moved the Objectives Resolution on Dec 13, 1946[span_33](end_span)." },
-    { "question": "11. Consider the following statements:\n1. Dr. Sachchidanand Sinha was elected Provisional President of CA.\n2. H.C. [span_34](start_span)Mukherjee was elected Vice-President of CA.", "options": ["(a) Only 1", "(b) Only 2", "(c) Both 1 and 2", "(d) Neither 1 nor 2"], "answer": 2, "explanation": "Both statements regarding CA leadership are correct[span_34](end_span)." }
+    {
+        "question": "1. Consider the statements regarding the Constituent Assembly:\n1. The members were elected directly by the people from Hindu, Muslim, Sikh and Christian communities.\n2. The Chairman of the Union Constitution Committee was Sardar Vallabhbhai Patel.\n3. The total strength of the Constituent Assembly was 389.\n4. The Drafting Committee under the chairmanship of Dr. B.R. Ambedkar had eight members.\nWhich of the statements given above is/are correct?",
+        "options": ["(a) 1, 2, 3 and 4", "(b) 1, 2 and 4", "(c) 3 only", "(d) 1 only"],
+        "answer": 2,
+        "explanation": "Statement 3 is correct (Total strength was 389). Members were indirectly elected. Jawaharlal Nehru was the chairman of the Union Constitution Committee. The Drafting Committee had seven members."
+    },
+    {
+        "question": "2. Which of the following provisions of the Constitution of India was/were given immediate effect from November 26, 1949?\n1. Citizenship\n2. Emergency provisions\n3. Elections\n4. Federal system\nSelect the correct answer from the codes given below:",
+        "options": ["(a) Only 1", "(b) 2 and 3", "(c) 1 and 4", "(d) 1 and 3"],
+        "answer": 3,
+        "explanation": "Articles pertaining to Citizenship, Elections, provisional parliament, and temporary/transitional provisions were given immediate effect on Nov 26, 1949. The rest of the Constitution came into force on Jan 26, 1950."
+    },
+    {
+        "question": "3. What was the procedure followed for adoption of the Constitution of India?",
+        "options": ["(a) It was submitted to the people of India for ratification.", "(b) It was submitted to the Governor-General for his assent.", "(c) It was adopted when the Interim Government approved it.", "(d) It was adopted when it received the signature of the President and Members of the Constituent Assembly."],
+        "answer": 3,
+        "explanation": "The Constitution was adopted, enacted, and given to themselves by the people of India in the Constituent Assembly, formalized by the signatures of its President and members."
+    },
+    {
+        "question": "4. Who among the following was the Chairman of the States Committee of the Constituent Assembly?",
+        "options": ["(a) Dr. B.R. Ambedkar", "(b) Jawaharlal Nehru", "(c) Dr. Rajendra Prasad", "(d) Sardar Patel"],
+        "answer": 1,
+        "explanation": "Jawaharlal Nehru chaired the States Committee (Committee for Negotiating with States)."
+    },
+    {
+        "question": "5. The Constitution of India as framed by the Constituent Assembly was finally adopted and enacted on:",
+        "options": ["(a) 15th August, 1947", "(b) 30th January, 1948", "(c) 26th November, 1949", "(d) 26th January, 1950"],
+        "answer": 2,
+        "explanation": "The Preamble explicitly states that the Constitution was adopted and enacted on the 26th day of November, 1949."
+    },
+    {
+        "question": "6. Match List I (Constituent Assembly Committee) with List II (Chairman):\nA. Steering Committee - 1. Dr. Rajendra Prasad\nB. Fundamental Rights Sub-Committee - 2. J.B. Kripalani\nC. Union Constitution Committee - 3. Jawaharlal Nehru\nD. Provincial Constitution Committee - 4. Sardar Vallabhbhai Patel\nSelect the correct code:",
+        "options": ["(a) A-1, B-2, C-3, D-4", "(b) A-1, B-4, C-3, D-2", "(c) A-2, B-4, C-3, D-1", "(d) A-1, B-3, C-4, D-2"],
+        "answer": 0,
+        "explanation": "These are the correct historical chairpersons of the respective major and minor committees of the Constituent Assembly."
+    },
+    {
+        "question": "7. The members of the Constituent Assembly were:",
+        "options": ["(a) Directly elected by the people", "(b) Nominated by the Governor General", "(c) Elected by the legislatures of various provinces and nominated by the rulers of the princely states", "(d) Nominated by the Congress and the Muslim League"],
+        "answer": 2,
+        "explanation": "The Constituent Assembly was a partly elected and partly nominated body. Members were indirectly elected by the provincial assemblies and nominated by the princely states."
+    },
+    {
+        "question": "8. Who among the following was the Constitutional Advisor to the Constituent Assembly?",
+        "options": ["(a) Dr. B.R. Ambedkar", "(b) K.M. Munshi", "(c) Sir B.N. Rau", "(d) T.T. Krishnamachari"],
+        "answer": 2,
+        "explanation": "Sir B.N. Rau was appointed as the Constitutional Advisor to the Assembly to formulate the initial draft of the Constitution."
+    },
+    {
+        "question": "9. Assertion (A): The Constituent Assembly of 1946 was not elected on the basis of universal adult franchise.\nReason (R): The Constituent Assembly was constituted under the scheme formulated by the Cabinet Mission Plan.",
+        "options": ["(a) Both A and R are individually true and R is the correct explanation of A", "(b) Both A and R are individually true but R is not the correct explanation of A", "(c) A is true but R is false", "(d) A is false but R is true"],
+        "answer": 0,
+        "explanation": "The Cabinet Mission Plan provided for an indirect election of the Constituent Assembly members by the provincial legislatures, thus bypassing universal adult franchise due to time and administrative constraints."
+    },
+    {
+        "question": "10. Who among the following moved the 'Objectives Resolution' in the Constituent Assembly?",
+        "options": ["(a) B.N. Rao", "(b) B.R. Ambedkar", "(c) Jawaharlal Nehru", "(d) Rajendra Prasad"],
+        "answer": 2,
+        "explanation": "Jawaharlal Nehru moved the historic 'Objectives Resolution' on December 13, 1946, which laid down the fundamentals and philosophy of the constitutional structure."
+    },
+    {
+        "question": "11. Consider the following statements:\n1. Dr. Sachchidanand Sinha was elected as the Provisional President of the Constituent Assembly.\n2. H.C. Mukherjee was elected as the Vice-President of the Constituent Assembly.\nWhich of the statements given above is/are correct?",
+        "options": ["(a) Only 1", "(b) Only 2", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+        "answer": 2,
+        "explanation": "Following the French practice, the oldest member Dr. Sachchidanand Sinha was elected as the temporary president. Later, H.C. Mukherjee and V.T. Krishnamachari were elected as the Vice-Presidents."
+    }
 ]
