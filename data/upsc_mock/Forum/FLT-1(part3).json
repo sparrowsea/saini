@@ -1,0 +1,442 @@
+[
+    {
+        "question": "61. With reference to India's biodiversity, the organisms Tenkana jayamangali, Piratula acuminata and Mimetus Spinatus, recently seen in the news, are:",
+        "options": [
+            "(a) Birds",
+            "(b) Reptiles",
+            "(c) Spiders",
+            "(d) Fish"
+        ],
+        "answer": 2,
+        "explanation": "Option c is the correct answer. The organisms Tenkana jayamangali, Piratula acuminata, and Mimetus spinatus are spider species that were recently reported in biodiversity research in India. Tenkana jayamangali is a jumping spider discovered in Karnataka. Piratula acuminata is a wolf spider from the Sundarbans. Mimetus spinatus is a pirate spider discovered in the Western Ghats."
+    },
+    {
+        "question": "62. Consider the following statements:\nStatement I: Black plastic, which is extensively used for food containers and kitchen utensils, may leach harmful chemicals into the food.\nStatement II: Black plastic is often manufactured from recycled electronic waste, which may contain substances such as brominated flame retardants and heavy metals.\nWhich one of the following is correct in respect of the above statements?",
+        "options": [
+            "(a) Both Statement I and Statement II are correct and Statement II explains Statement I",
+            "(b) Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+            "(c) Statement I is correct but Statement II is not correct",
+            "(d) Statement I is not correct but Statement II is correct"
+        ],
+        "answer": 0,
+        "explanation": "Option a is the correct answer. Statement I is correct: Black plastic products can leach harmful chemicals into food, especially when exposed to heat or oils. Statement II is correct: Black plastic is frequently manufactured using recycled plastic waste from electronic equipment (e-waste), which often contains additives like brominated flame retardants and heavy metals. Statement II explains Statement I as the chemical composition of recycled e-waste plastic explains the health risk."
+    },
+    {
+        "question": "63. With reference to environmental initiatives and organizations, consider the following pairs:\nI. AIM4NatuRe Initiative - Food and Agriculture Organization (FAO)\nII. Global Energy Alliance for People and Planet (GEAPP) - World Bank\nIII. Net-Zero Nature-Positive Accelerator Integrated Program - United Nations Environment Programme (UNEP)\nHow many of the pairs given above are correctly matched?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) All the three",
+            "(d) None"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. Pair I is correct: The FAO launched the AIM4NatuRe Initiative. Pair II is incorrect: The GEAPP is a multi-stakeholder partnership launched with support from philanthropic institutions (Rockefeller, IKEA, Bezos Earth Fund), not led by the World Bank. Pair III is correct: The UNEP, GEF, CAF, and ADB officially launched the Net-Zero Nature-Positive Accelerator Integrated Programme."
+    },
+    {
+        "question": "64. With reference to the Third United Nations Ocean Conference, 2025, consider the following statements:\nI. It was co-hosted by Portugal and Kenya.\nII. The 'High Seas Treaty' was formally adopted for the first time during this Conference.\nIII. During the conference, a political declaration titled 'Our ocean, our future: united for urgent action' was adopted with the consensus of member countries.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "(a) I and III",
+            "(b) II and III",
+            "(c) III only",
+            "(d) I only"
+        ],
+        "answer": 2,
+        "explanation": "Option c is the correct answer. Statement I is incorrect: The Third UN Ocean Conference (UNOC3) was co-hosted by France and Costa Rica in 2025. (Portugal and Kenya hosted the 2022 conference). Statement II is incorrect: The High Seas Treaty was not formally adopted for the first time here; it officially entered into force in Jan 2026. Statement III is correct: The primary outcome of the 2025 Conference was the adoption of the 'Nice Ocean Action Plan', which includes the high-level political declaration titled 'Our Ocean, Our Future: United for Urgent Action'."
+    },
+    {
+        "question": "65. Consider the following statements about the Gangetic River Dolphins:\nI. They are blind and rely on echo-location to communicate and move.\nII. They are frequently found alone or in small groups.\nIII. Male Gangetic Dolphins are generally larger in size than females.\nIV. The Vikramshila Gangetic Dolphin Sanctuary, Bihar, is the only notified dolphin sanctuary in India.\nWhich of the statements given above are correct?",
+        "options": [
+            "(a) I, II and III only",
+            "(b) I, II, III and IV",
+            "(c) III and IV only",
+            "(d) I, II and IV only"
+        ],
+        "answer": 3,
+        "explanation": "Option d is the correct answer. Statement I is correct: They are blind and navigate/hunt using echolocation. Statement II is correct: They are mostly solitary or found in small groups (like a mother and calf). Statement III is incorrect: Females are generally larger than males (sexual dimorphism). Statement IV is correct: The Vikramshila Gangetic Dolphin Sanctuary in Bihar is the only notified dolphin sanctuary in India."
+    },
+    {
+        "question": "66. With reference to the Global Carbon Harvest Coalition, recently seen in the news, which one of the following statements is correct?",
+        "options": [
+            "(a) It was launched at the COP29 of the United Nations Framework Convention on Climate Change held in Baku, Azerbaijan.",
+            "(b) India is among the key countries leading the Coalition, in partnership with Brazil and Kenya.",
+            "(c) Its primary objective is to establish a legally binding global carbon tax under the Paris Agreement framework.",
+            "(d) The coalition is funded exclusively through financial support provided by the Green Climate Fund (GCF)."
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. Option a is incorrect: It was launched during the COP30 summit in Brazil (2025). Option b is correct: It is a collaborative initiative led by Brazil, India, and Kenya. Option c is incorrect: It is a voluntary initiative promoting soil-based carbon removal, not a legally binding tax. Option d is incorrect: It is expected to be funded from multiple sources, not exclusively the GCF."
+    },
+    {
+        "question": "67. Consider the following States in India:\nI. Odisha\nII. Madhya Pradesh\nIII. Uttar Pradesh\nIV. Chhattisgarh\nHow many of the above States have shown a net increase in forest and tree cover as per India State of Forest Report (ISFR) 2023 compared to 2021?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All the four"
+        ],
+        "answer": 2,
+        "explanation": "Option c is the correct answer. As per ISFR 2023, the maximum increase in forest and tree cover has been observed in Chhattisgarh, Uttar Pradesh, Odisha, and Rajasthan. However, Madhya Pradesh recorded the maximum decrease. Thus, only three of the listed states (Odisha, UP, Chhattisgarh) showed a net increase."
+    },
+    {
+        "question": "68. India has recently submitted the nomination dossier of the 'Jingkieng Jri / Lyu Chrai Cultural Landscape' to UNESCO for consideration as a World Heritage Site. The dossier primarily represents the living root bridges found in which Indian state?",
+        "options": [
+            "(a) Arunachal Pradesh",
+            "(b) Sikkim",
+            "(c) Nagaland",
+            "(d) Meghalaya"
+        ],
+        "answer": 3,
+        "explanation": "Option d is the correct answer. The nomination dossier titled 'Jingkieng Jri / Lyu Chrai Cultural Landscape' represents the unique living root bridges located in the Khasi and Jaintia Hills of Meghalaya."
+    },
+    {
+        "question": "69. With reference to ecology, consider the following associations:\nI. Remora fish attaching to sharks for transportation and leftover food\nII. Mycorrhizae (fungi), associated with the roots of higher plants\nIII. Penicillium Fungus secreting antibiotics that inhibit bacterial growth\nIV. An Orchid growing as an epiphyte on a mango branch\nHow many of the above associations are examples of commensalism?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All the four"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. Commensalism is a (+/0) interaction where one benefits and the other is unaffected. Option I is correct: Remora benefits, shark is unaffected (+/0). Option II is incorrect: Mycorrhizae is mutualism (+/+). Option III is incorrect: Penicillium inhibiting bacteria is amensalism (-/0). Option IV is correct: Orchid benefits, mango tree is unaffected (+/0). Thus, exactly two are commensalism."
+    },
+    {
+        "question": "70. Consider the following fauna species of India:\nI. Gharial\nII. Great Indian Bustard\nIII. Asiatic Lion\nIV. Bengal Florican\nHow many of the above are classified as Critically Endangered under the International Union for Conservation of Nature (IUCN) Red List of Threatened Species?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All the four"
+        ],
+        "answer": 2,
+        "explanation": "Option c is the correct answer. Gharial, Great Indian Bustard, and Bengal Florican are classified as Critically Endangered. The Asiatic Lion is categorized as Endangered (not Critically Endangered). Therefore, exactly three species listed are Critically Endangered."
+    },
+    {
+        "question": "71. Consider the following states:\nI. Bihar\nII. Uttar Pradesh\nIII. Haryana\nIV. Punjab\nBoth the Eastern Dedicated Freight Corridor (EDFC) and the Western Dedicated Freight Corridor (WDFC) pass through how many of the above given states?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All the four"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. The EDFC passes through Punjab, Haryana, Uttar Pradesh, Bihar, Jharkhand and West Bengal. The WDFC passes through Uttar Pradesh, Haryana, Rajasthan, Gujarat and Maharashtra. Thus, both corridors pass through exactly two common states: Haryana and Uttar Pradesh."
+    },
+    {
+        "question": "72. With reference to the Inter-Tropical Convergence Zone (ITCZ), consider the following statements:\nI. It is a low pressure zone located near the equator where trade winds converge.\nII. It is a zone where atmospheric air descends.\nIII. It shifts northward during the summer season in the Northern Hemisphere and southward during the summer season in the Southern Hemisphere.\nWhich of the statements given above are correct?",
+        "options": [
+            "(a) I and II only",
+            "(b) II and III only",
+            "(c) I and III only",
+            "(d) I, II and III"
+        ],
+        "answer": 2,
+        "explanation": "Option c is the correct answer. Statement I is correct: ITCZ is a low-pressure zone near the equator where trade winds converge. Statement II is incorrect: Intense heating causes warm air to become lighter and RISE (ascend), not descend. Statement III is correct: It shifts northward during the Northern Hemisphere summer and southward during the Southern Hemisphere summer."
+    },
+    {
+        "question": "73. Consider the following statements:\nI. Generally found on the western margins of continents in the mid-latitudes.\nII. Moist climate in which most of the precipitation occurs during winter, while summers experience comparatively less rainfall.\nIII. These climatic regions remain under the permanent influence of the Westerlies throughout the year\nWhich one of the following types of climate is best described in above given statements?",
+        "options": [
+            "(a) Mediterranean Climate",
+            "(b) British Type Climate",
+            "(c) Humid Subtropical Climate",
+            "(d) Steppe Climate"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. The features describe the British Type (Cool Temperate Western Margin) Climate. It is found on the western margins of continents, experiences precipitation throughout the year (though higher in winter), and remains under the permanent influence of the Westerlies."
+    },
+    {
+        "question": "74. Consider the following statements regarding Earthquake Waves:\nI. P-waves can travel through solid, liquid and gaseous materials, whereas S-waves can travel only through solid materials.\nII. Compared to body waves, surface waves are more destructive.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "(a) I only",
+            "(b) II only",
+            "(c) Both I and II",
+            "(d) Neither I nor II"
+        ],
+        "answer": 2,
+        "explanation": "Option c is the correct answer. Statement I is correct: P-waves travel through solid, liquid, and gas, while S-waves travel only through solids. Statement II is correct: Surface waves arrive last but move along the Earth's surface causing maximum ground displacement, making them more destructive than body waves (P and S waves)."
+    },
+    {
+        "question": "75. Consider the following phenomenon:\nI. Length of day and night\nII. Seasons on Earth\nIII. Trade winds\nIV. Ocean currents\nV. Tropical cyclones\nHow many of the above are influenced by the Coriolis force?",
+        "options": [
+            "(a) Only two",
+            "(b) Only three",
+            "(c) Only four",
+            "(d) All the five"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. The Coriolis force only acts on bodies in motion relative to the Earth. The length of the day (I) and Seasons (II) are not influenced by the Coriolis force. Trade winds (III), Ocean currents (IV), and the rotation of Tropical cyclones (V) are strongly modified/influenced by the Coriolis force. Thus, exactly three are correct."
+    },
+    {
+        "question": "76. Which among the following is not included as a Green House Gas mitigation activity included in the list of activities finalized by India to be considered for trading of carbon credits under bilateral/cooperative approaches under Article 6.4 mechanism of Paris Agreement?",
+        "options": [
+            "(a) Green Hydrogen",
+            "(b) Offshore Wind Energy",
+            "(c) Compressed bio-gas",
+            "(d) Agriculture, Forestry and Other Land Use (AFOLU) sector"
+        ],
+        "answer": 3,
+        "explanation": "Option d is the correct answer. Green Hydrogen, Offshore Wind Energy, and Compressed bio-gas are all approved mitigation activities. However, the Agriculture, Forestry and Other Land Use (AFOLU) sector is currently not eligible under India's notified list for carbon credit trading under Article 6.4."
+    },
+    {
+        "question": "77. With reference to Coral Bleaching, which of the following statements are correct?\nI. It occurs when corals expel their symbiotic algae due to stress, causing them to turn white.\nII. Prolonged marine heatwaves and rise in sea surface temperature are major causes of coral bleaching.\nIII. The recent global mass bleaching event that began in 2023 has affected a majority of the Great Barrier Reef off the coast of Australia.\nSelect the correct answer using the code given below.",
+        "options": [
+            "(a) I and II only",
+            "(b) I and III only",
+            "(c) II and III only",
+            "(d) I, II and III"
+        ],
+        "answer": 3,
+        "explanation": "Option d is the correct answer. All statements are correct. Corals expel zooxanthellae under stress (causing bleaching). Marine heatwaves and elevated sea surface temperatures are primary triggers. The global mass bleaching event starting in 2023 is the largest on record and severely affected the Great Barrier Reef."
+    },
+    {
+        "question": "78. Consider the following:\nI. Dinoflagellate algae\nII. Jellyfish\nIII. Fireflies\nIV. Termites\nV. Parrots\nThe bioluminescence phenomenon is exhibited by the species of how many of the above kind of organisms?",
+        "options": [
+            "(a) Only two",
+            "(b) Only three",
+            "(c) Only four",
+            "(d) All the five"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. Bioluminescence is the ability to produce light via biochemical reaction. Dinoflagellates, Jellyfish, and Fireflies exhibit bioluminescence. Termites do not. Parrots exhibit biofluorescence (absorbing external light and re-emitting it), not bioluminescence. Thus, exactly three exhibit it."
+    },
+    {
+        "question": "79. Consider the following:\nI. Botanical Gardens\nII. Biosphere Reserves\nIII. Seed Banks\nHow many of the above are ex-situ biodiversity conservation methods?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) All the three",
+            "(d) None"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. Ex-situ methods conserve species outside their natural habitats. Botanical Gardens and Seed Banks are ex-situ methods. Biosphere Reserves protect entire ecosystems in their natural settings and are an in-situ method. Thus, only two are ex-situ."
+    },
+    {
+        "question": "80. Consider the following statements:\nStatement I: The Climate and Clean Air Coalition has launched the Super Pollutant Country Action Accelerator in certain countries.\nStatement-II: The Super Pollutant Country Action Accelerator primarily targets for sustained reduction in emissions of carbon dioxide (CO2), nitrogen dioxide (NO2) and sulphur hexafluoride (SF6).\nWhich one of the following is correct in respect of the above statements?",
+        "options": [
+            "(a) Both Statement I and Statement II are correct and Statement II explains Statement I.",
+            "(b) Both Statement I and Statement II are correct but Statement II does not explain Statement I.",
+            "(c) Statement I is correct but Statement II is not correct.",
+            "(d) Statement I is not correct but Statement II is correct."
+        ],
+        "answer": 2,
+        "explanation": "Option c is the correct answer. Statement I is correct: CCAC launched the Super Pollutant Country Action Accelerator. Statement II is incorrect: It targets short-lived climate pollutants (SLCPs) like Methane, Black carbon, and HFCs. CO2 is handled under broader frameworks, not primarily by this super pollutant accelerator."
+    },
+    {
+        "question": "81. Which of the following best describes the replacement level fertility rate in a country?",
+        "options": [
+            "(a) The average number of children a woman must bear to exactly replace herself and her partner in the population.",
+            "(b) The number of live births required per 1,000 population to maintain zero population growth in a given year.",
+            "(c) The total number of children born in a country divided by the total number of women of reproductive age.",
+            "(d) The average number of daughters a woman would have if she survived all of her childbearing years."
+        ],
+        "answer": 0,
+        "explanation": "Option a is the correct answer. Replacement level fertility refers to the average number of children a woman must have to replace herself and her partner, ensuring that one generation exactly replaces the previous one (generally about 2.1)."
+    },
+    {
+        "question": "82. Which of the following statements with regard to Initial Public Offering (IPO) are correct?\nI. It is the process by which a private company sells its shares to the public for the first time to raise equity capital.\nII. Grey Market Premium refers to the premium at which IPO shares are unofficially traded before formal listing on a designated stock exchange.\nIII. The Draft Red Herring Prospectus is a preliminary document that a company files with the Securities and Exchange Board of India before launching an IPO.\nSelect the correct answer using the code given below.",
+        "options": [
+            "(a) I and II only",
+            "(b) II and III only",
+            "(c) I and III only",
+            "(d) I, II and III"
+        ],
+        "answer": 3,
+        "explanation": "Option d is the correct answer. All statements are correct. An IPO is the first public issue of shares by a private company. Grey Market Premium is the unofficial trading premium prior to listing. The DRHP is a preliminary disclosure document filed with SEBI containing business details but not the final issue price."
+    },
+    {
+        "question": "83. With reference to the Indian financial system, consider the following instruments:\nI. State Development Loans (SDLs)\nII. Treasury Bills (T-bills)\nIII. Tri-party Repo\nIV. Commercial Papers (CP)\nV. Cash Management Bills (CMBs)\nVI. Repurchase Agreements (Repos)\nHow many of the above are money market instruments in the Indian financial system?",
+        "options": [
+            "(a) Only three",
+            "(b) Only four",
+            "(c) Only five",
+            "(d) All the six"
+        ],
+        "answer": 2,
+        "explanation": "Option c is the correct answer. The money market deals with short-term instruments (up to 1 year). SDLs have long-term maturity and are part of the capital market. T-bills, Tri-party Repo, Commercial Papers, CMBs, and Repos are all short-term and belong to the money market. Thus, exactly five are money market instruments."
+    },
+    {
+        "question": "84. Consider the following:\nI. Sale of Government Securities (G-Secs) by RBI in the open market.\nII. Reduction in the Cash Reserve Ratio (CRR) for commercial banks by RBI.\nIII. Purchase of Government Securities (G-Secs) by RBI from the secondary market.\nIV. Change in the Repo Rate under the monetary policy framework by RBI.\nHow many of the above are examples of Open Market Operations conducted by the Reserve Bank of India?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All the four"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. Open Market Operations (OMOs) specifically involve the outright purchase or sale of Government Securities (G-Secs). Thus, only I (Sale of G-Secs) and III (Purchase of G-Secs) are OMOs. CRR reduction (II) is a reserve requirement tool, and Repo Rate (IV) is a policy rate tool."
+    },
+    {
+        "question": "85. With reference to inflationary trends in an economy, consider the following pairs:\nI. Persistent rise in prices due to sharp increase in government expenditure when the economy is near full employment \u2014 Demand-pull inflation\nII. Rise in general price level following a sudden sharp increase in crude oil prices \u2014 Cost-push inflation\nIII. Continuous fall in general price level accompanied by decline in output and rise in unemployment \u2014 Disinflation\nIV. Gradual reduction in the rate of inflation through deliberate policy measures without causing abrupt shock to the economy \u2014 Hyper-inflation\nHow many of the above given pairs are correctly matched?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All the four"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. Pair I is correct: Excess demand beyond capacity causes demand-pull inflation. Pair II is correct: Increased production costs cause cost-push inflation. Pair III is incorrect: A continuous fall in the price level is 'Deflation', not disinflation. Pair IV is incorrect: A gradual reduction in the rate of inflation is 'Disinflation', not hyper-inflation. Only two are correctly matched."
+    },
+    {
+        "question": "86. With reference to India, consider the following pollutants:\nI. Sulphur Dioxide (SO2)\nII. Lead (Pb)\nIII. Carbon Monoxide (CO)\nIV. Ammonia (NH3)\nV. Nitrogen Dioxide (NO2)\nHow many of the above have been identified for regular monitoring at different locations across India under the National Air Quality Monitoring Programme (NAMP)?",
+        "options": [
+            "(a) Only two",
+            "(b) Only three",
+            "(c) Only four",
+            "(d) All the five"
+        ],
+        "answer": 0,
+        "explanation": "Option a is the correct answer. Under NAMP, four core air pollutants are regularly monitored at all locations: SO2, NO2, RSPM/PM10, and PM2.5. Lead, CO, and Ammonia are part of the broader NAAQS but are not part of the core pollutants monitored at all locations under NAMP. Thus, only two (SO2 and NO2) are correct."
+    },
+    {
+        "question": "87. With reference to the components of the Balance of Payments (BoP) of India, consider the following pairs:\nI. A tourist from France visits India and purchases Indian handicrafts during the visit. \u2014 Capital Account\nII. An Indian software company provides IT services to a firm based in Germany and receives payment. \u2014 Current Account\nIII. The Government of India raises funds by issuing sovereign bonds to investors in Japan. \u2014 Capital Account\nIV. An Indian bank repays the principal amount of an external commercial borrowing to a foreign lender. \u2014 Current Account\nHow many of the pairs given above are correctly matched?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All the four"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. Pair I is incorrect: Purchasing handicrafts is an export of goods, recorded in the Current Account. Pair II is correct: Export of IT services is recorded in the Current Account. Pair III is correct: Issuing sovereign bonds is external borrowing and is recorded in the Capital Account. Pair IV is incorrect: Repayment of principal reduces liability and is a capital outflow recorded in the Capital Account."
+    },
+    {
+        "question": "88. Which one of the following terms is most appropriately used to denote an advanced Artificial Intelligence system that can autonomously perceive its environment, set goals, make decisions, and execute multi-step actions with minimal human intervention in order to accomplish complex tasks?",
+        "options": [
+            "(a) Explainable AI",
+            "(b) Generative AI",
+            "(c) Edge AI",
+            "(d) Agentic AI"
+        ],
+        "answer": 3,
+        "explanation": "Option d is the correct answer. Agentic AI refers to a class of advanced AI systems that function as autonomous agents capable of perceiving, setting goals, decision-making, and executing complex tasks with minimal human supervision."
+    },
+    {
+        "question": "89. Consider the following statements with reference to the Navratna Companies in India:\nI. Only Central Public Sector Enterprises (CPSEs) which have made profits in the three out of last five years can be considered for grant of Navratna status.\nII. Indian Railway Catering and Tourism Corporation (IRCTC), Indian Railway Finance Corporation (IRFC), and Numaligarh Refinery Limited (NRL) have recently been granted Navratna status.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "(a) I only",
+            "(b) II only",
+            "(c) Both I and II",
+            "(d) Neither I nor II"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. Statement I is incorrect: 'Profit in three out of five years' is not a criterion. A CPSE must be a Miniratna Category-I, Schedule 'A', have Excellent/Very Good ratings, and score 60+ on specific indicators. Statement II is correct: IRCTC, IRFC, and NRL were recently granted Navratna status."
+    },
+    {
+        "question": "90. With reference to the Payments Regulatory Board (PRB) in India, consider the following statements:\nI. It is chaired by the Governor of the Reserve Bank of India (RBI).\nII. It is responsible for regulation and supervision of payment and settlement systems in India on behalf of RBI as per the Payment and Settlement Systems Act, 2007.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "(a) I only",
+            "(b) II only",
+            "(c) Both I and II",
+            "(d) Neither I nor II"
+        ],
+        "answer": 2,
+        "explanation": "Option c is the correct answer. Both statements are correct. The PRB is the apex regulatory body for payment systems in India, headed by the RBI Governor as ex-officio Chairperson, and it functions under the Payment and Settlement Systems Act, 2007."
+    },
+    {
+        "question": "91. Consider the following processes:\nI. Incineration\nII. Gasification\nIII. Vermicomposting\nIV. Pyrolysis\nV. Phytoremediation\nHow many of the above processes are examples of Waste-to-Energy (WtE) technologies?",
+        "options": [
+            "(a) Only two",
+            "(b) Only three",
+            "(c) Only four",
+            "(d) All the five"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. Waste-to-Energy (WtE) technologies create energy from waste. Incineration, Gasification, and Pyrolysis are thermal WtE technologies. Vermicomposting (composting via earthworms) and Phytoremediation (using plants to remove pollutants) do not generate energy. Thus, exactly three are correct."
+    },
+    {
+        "question": "92. Consider the following statements:\nStatement I: Compared to the conventional Ballistic Missiles, the Hypersonic Glide Vehicles (HGVs) are much harder to be intercepted by traditional missile defence systems.\nStatement II: Unlike ballistic missiles which follow a fixed, predictable parabolic trajectory, HGVs travel at lower altitudes and possess the ability to maneuver mid-flight.\nWhich one of the following is correct in respect of the above statements?",
+        "options": [
+            "(a) Both Statement I and Statement II are correct and Statement II explains Statement I",
+            "(b) Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+            "(c) Statement I is correct but Statement II is not correct",
+            "(d) Statement I is not correct but Statement II is correct"
+        ],
+        "answer": 0,
+        "explanation": "Option a is the correct answer. Statement I is correct: HGVs are much harder to intercept. Statement II is correct: HGVs re-enter earlier, travel at lower altitudes, and execute evasive manoeuvres mid-flight unlike the predictable parabolic paths of ballistic missiles. Statement II directly explains Statement I."
+    },
+    {
+        "question": "93. Which of the following engines utilizes an air-breathing propulsion system?",
+        "options": [
+            "(a) Solid Propellant Rocket Engine",
+            "(b) Liquid Propellant Rocket Engine",
+            "(c) Cryogenic Engine",
+            "(d) Scramjet Engine"
+        ],
+        "answer": 3,
+        "explanation": "Option d is the correct answer. A Scramjet (Supersonic Combustion Ramjet) intakes oxygen from the atmospheric air during flight, making it an air-breathing propulsion system. Solid, liquid, and cryogenic rocket engines carry their own onboard oxidizers."
+    },
+    {
+        "question": "94. Consider the following applications:\nI. Electronic toll collection systems such as FASTag\nII. Biometric authentication in Aadhaar using fingerprint scanning\nIII. Inventory tracking and supply chain management in warehouses\nIV. Contactless metro and smart transit cards\nV. Magnetic stripe-based debit and credit cards\nIn how many of the above applications is Radio Frequency Identification (RFID) technology used?",
+        "options": [
+            "(a) Only two",
+            "(b) Only three",
+            "(c) Only four",
+            "(d) All the five"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. FASTag (I), Inventory tracking in warehouses (III), and Contactless smart transit cards (IV) use RFID/NFC technology. Aadhaar fingerprint scanning (II) relies on biometric sensors. Magnetic stripe cards (V) rely on physical swiping and do not use RFID. Exactly three are correct."
+    },
+    {
+        "question": "95. Consider the following Indian Naval Ships:\nI. INS Mahe\nII. INS Anjadip\nIII. INS Vikramaditya\nIV. INS Arihant\nHow many of the above are Anti-Submarine Warfare-Shallow Water Craft (ASW-SWC)?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) Only three",
+            "(d) All the four"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. INS Mahe and INS Anjadip are specially designed Anti-Submarine Warfare-Shallow Water Crafts (ASW-SWC) for the Indian Navy. INS Vikramaditya is an aircraft carrier, and INS Arihant is a nuclear-powered ballistic missile submarine. Thus, exactly two are ASW-SWCs."
+    },
+    {
+        "question": "96. With reference to Quick Response (QR) Code, consider the following statements:\nI. It is a two-dimensional machine-readable unique pattern that contains information on a specific task.\nII. It incorporates error-correction mechanisms that allow the stored data to be retrieved even if a portion of the code is damaged or obscured.\nIII. An active internet connection is mandatory to scan a QR code in order to decode the stored information in the QR code.\nIV. 'Quishing' is a cyber-attack where a legitimate QR code is physically or digitally replaced with a malicious one to steal user credentials or financial data.\nWhich of the statements given above are correct?",
+        "options": [
+            "(a) I and IV only",
+            "(b) I, II and IV only",
+            "(c) II and III only",
+            "(d) I, II, III and IV"
+        ],
+        "answer": 1,
+        "explanation": "Option b is the correct answer. Statement I is correct: It is a 2D matrix barcode. Statement II is correct: It incorporates Reed-Solomon error correction. Statement III is incorrect: Scanning and decoding the raw data in a QR code does not require an internet connection (it is read offline). Statement IV is correct: Quishing (QR phishing) is replacing legitimate QR codes with malicious ones."
+    },
+    {
+        "question": "97. The term 'Zero-Knowledge Proof', often seen in the context of cryptography and blockchain technologies, refers to a:",
+        "options": [
+            "(a) cryptographic technique through which one party can prove the validity of an information to another party without revealing the actual information.",
+            "(b) cryptographic technique through which digital signatures are generated to authenticate users and validate blockchain transactions.",
+            "(c) blockchain consensus mechanism that requires participating nodes to solve complex cryptographic puzzles to validate transactions.",
+            "(d) blockchain technology that ensures transparency by allowing all users in the network to view the complete history of a transaction."
+        ],
+        "answer": 0,
+        "explanation": "Option a is the correct answer. A Zero-Knowledge Proof (ZKP) is a cryptographic protocol enabling one party to prove to another that a statement is true, without revealing any information beyond the validity of the statement itself (e.g., verifying age without revealing date of birth)."
+    },
+    {
+        "question": "98. The 'Willow' quantum processor, recently reported to have achieved the first 'verifiable quantum advantage,' has been developed by:",
+        "options": [
+            "(a) Google",
+            "(b) OpenAI",
+            "(c) Microsoft",
+            "(d) Amazon"
+        ],
+        "answer": 0,
+        "explanation": "Option a is the correct answer. The Willow quantum processor has been developed by Google Quantum AI. It is a superconducting qubit-based chip that recently achieved the first verifiable quantum advantage."
+    },
+    {
+        "question": "99. Which among the following group of cities in India have been officially recognized with the 'Wetland City Accreditation' under the Ramsar Convention?",
+        "options": [
+            "(a) Indore and Bhopal",
+            "(b) Udaipur and Srinagar",
+            "(c) Indore and Udaipur",
+            "(d) Srinagar and Bhopal"
+        ],
+        "answer": 2,
+        "explanation": "Option c is the correct answer. In 2025, Indore (Madhya Pradesh) and Udaipur (Rajasthan) became the first Indian cities to receive the international Wetland City Accreditation (WCA) under the Ramsar Convention for their urban wetland conservation efforts."
+    },
+    {
+        "question": "100. With reference to the Indian economy, the term 'Economic Capital Framework' is most closely associated with the:",
+        "options": [
+            "(a) fiscal deficit management by the Union Ministry of Finance.",
+            "(b) capital adequacy norms for commercial banks regulated by Reserve Bank of India.",
+            "(c) regulation of capital markets by the Securities and Exchange Board of India.",
+            "(d) risk provisioning and surplus distribution by the Reserve Bank of India."
+        ],
+        "answer": 3,
+        "explanation": "Option d is the correct answer. The Economic Capital Framework (ECF) is used by the Reserve Bank of India to determine the level of capital reserves (risk buffers) it should maintain to safeguard against risks, and to decide the amount of surplus (profit) that can be transferred to the Government of India."
+    }
+]
