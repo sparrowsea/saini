@@ -3,72 +3,72 @@
         "question": "1. Consider the following statements:\n1. The Parliament is empowered to alter the boundaries of any existing State of India.\n2. A Bill pertaining to the alteration of the boundaries of any existing State of India can be introduced only in the Rajya Sabha and only on the recommendation of the President of India.\nWhich one of the statements given above is/are correct?",
         "options": ["(a) Only 1", "(b) Only 2", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
         "answer": 0,
-        [span_0](start_span)[span_1](start_span)"explanation": "Parliament can alter state boundaries by a simple majority; such a bill can be introduced in either House with the President's prior recommendation[span_0](end_span)[span_1](end_span)."
+        "explanation": "Statement 1 is correct. Statement 2 is incorrect because such a bill can be introduced in EITHER House of Parliament, though it does require the President's prior recommendation."
     },
     {
         "question": "2. Consider the following with respect to the Union of India:\n1. Formation of the State of Nagaland.\n2. States Reorganisation Act.\n3. Formation of the State of Haryana.\n4. Formation of the State of Gujarat.\nWhich one of the following is the correct chronological order of the above?",
         "options": ["(a) 4-2-3-1", "(b) 2-4-3-1", "(c) 4-2-1-3", "(d) 2-4-1-3"],
         "answer": 3,
-        [span_2](start_span)[span_3](start_span)"explanation": "The order is: States Reorganisation Act (1956), Gujarat (1960), Nagaland (1963), and Haryana (1966)[span_2](end_span)[span_3](end_span)."
+        "explanation": "The correct chronological order is: States Reorganisation Act (1956), Formation of Gujarat (1960), Formation of Nagaland (1963), and Formation of Haryana (1966)."
     },
     {
         "question": "3. The boundary of a State in India can be altered through the procedure laid down in:",
         "options": ["(a) Article 368", "(b) Article 130", "(c) Article 70", "(d) Article 3"],
         "answer": 3,
-        [span_4](start_span)[span_5](start_span)"explanation": "Article 3 authorizes Parliament to form new states and alter the areas, boundaries, or names of existing states[span_4](end_span)[span_5](end_span)."
+        "explanation": "Article 3 of the Constitution authorizes the Parliament to form new states, increase or diminish the area of any state, and alter the boundaries or names of existing states."
     },
     {
         "question": "4. In 1953, Prime Minister Jawaharlal Nehru announced the formation of a Commission to study the reorganization of states on a linguistic basis under the chairmanship of:",
         "options": ["(a) T.T. Krishnamachari", "(b) Vallabhbhai Patel", "(c) Fazl Ali", "(d) G.B. Pant"],
         "answer": 2,
-        [span_6](start_span)[span_7](start_span)"explanation": "The three-member States Reorganisation Commission was headed by Fazl Ali[span_6](end_span)[span_7](end_span)."
+        "explanation": "The three-member States Reorganisation Commission (SRC) appointed in 1953 was headed by Fazl Ali, with K.M. Panikkar and H.N. Kunzru as its other members."
     },
     {
         "question": "5. The Parliament of India passed the States Reorganisation Act in 1956 to create:",
         "options": ["(a) 16 States and 3 Union Territories", "(b) 15 States and 5 Union Territories", "(c) 14 States and 6 Union Territories", "(d) 24 States and 9 Union Territories"],
         "answer": 2,
-        [span_8](start_span)[span_9](start_span)"explanation": "The 1956 Act created 14 states and 6 union territories[span_8](end_span)[span_9](end_span)."
+        "explanation": "As a result of the States Reorganisation Act (1956) and the 7th Constitutional Amendment Act (1956), 14 states and 6 union territories were created on November 1, 1956."
     },
     {
         "question": "6. The States of the Indian Union can be reorganised or their boundaries altered by:",
         "options": ["(a) The Union Parliament by a simple majority in the ordinary process of legislation.", "(b) Two-thirds majority of both the Houses of Parliament.", "(c) Two-thirds majority of both the Houses and the consent of the legislature of the concerned States.", "(d) An executive order of the Union Government with the consent of the concerned State Governments."],
         "answer": 0,
-        [span_10](start_span)[span_11](start_span)"explanation": "State boundaries are altered by Parliament using the ordinary legislative process, which requires only a simple majority[span_10](end_span)[span_11](end_span)."
+        "explanation": "Article 4 explicitly states that laws made for admission or establishment of new states (under Article 2) and formation of new states and alteration of areas, boundaries, or names of existing states (under Article 3) are not to be considered as amendments of the Constitution under Article 368. Thus, they can be passed by a simple majority."
     },
     {
         "question": "7. The Constitution of India divided the states of India in categories A, B, C and D in the year 1950. In this context which of the following statements is correct?",
         "options": ["(a) The Chief Commissioner was the executive head of category A states.", "(b) The Rajpramukh was the executive head of category A states.", "(c) The Governor was the executive head of category A states. The Rajpramukh was the executive head of category B states. The Chief Commissioner was the executive head of categories C and D states.", "(d) The Governor was the executive head of category A states. The Chief Commissioner was the executive head of category B states."],
         "answer": 2,
-        [span_12](start_span)[span_13](start_span)"explanation": "Originally, Part A states had Governors, Part B had Rajpramukhs, and Parts C and D had Chief Commissioners or Lieutenant Governors[span_12](end_span)[span_13](end_span)."
+        "explanation": "Originally in 1950, Part A states (former governor's provinces) were headed by Governors. Part B states (former princely states) were headed by Rajpramukhs. Part C and D states were administered by Chief Commissioners or Lieutenant Governors appointed by the President."
     },
     {
         "question": "8. Who among the following was the head of the Linguistic Provinces Commission appointed in the year 1948, to enquire into the desirability of linguistic provinces?",
         "options": ["(a) Jawaharlal Nehru", "(b) Justice S.K. Dhar", "(c) Justice Fazl Ali", "(d) Pattabhi Sitaramayya"],
         "answer": 1,
-        "explanation": "The first Linguistic Provinces Commission in 1948 was headed by S.K. [span_14](start_span)[span_15](start_span)Dhar[span_14](end_span)[span_15](end_span)."
+        "explanation": "The Government of India appointed the Linguistic Provinces Commission under the chairmanship of S.K. Dhar in June 1948 to examine the feasibility of organizing states on a linguistic basis."
     },
     {
         "question": "9. What is the correct chronological order in which the following States of the Indian Union were created or granted full statehood?\n1. Andhra Pradesh\n2. Nagaland\n3. Maharashtra\n4. Haryana",
         "options": ["(a) 1-3-4-2", "(b) 3-1-2-4", "(c) 1-3-2-4", "(d) 3-1-4-2"],
         "answer": 2,
-        [span_16](start_span)[span_17](start_span)"explanation": "The order is: Andhra Pradesh (1953), Maharashtra (1960), Nagaland (1963), and Haryana (1966)[span_16](end_span)[span_17](end_span)."
+        "explanation": "The correct chronological order of creation is: Andhra Pradesh (1953), Maharashtra (1960), Nagaland (1963), and Haryana (1966)."
     },
     {
-        "question": "10. Who, among the following, was not a member of the States Reorganisation Commission (SRC) appointed by Pandit Jawaharlal Nehru ?",
+        "question": "10. Who, among the following, was not a member of the States Reorganisation Commission (SRC) appointed by Pandit Jawaharlal Nehru?",
         "options": ["(a) Justice Fazl Ali", "(b) Potti Sriramulu", "(c) K.M. Panikkar", "(d) Hridayanath Kunzru"],
         "answer": 1,
-        [span_18](start_span)[span_19](start_span)"explanation": "Potti Sriramulu was a leader whose fast led to the creation of Andhra but was not a member of the Fazl Ali Commission[span_18](end_span)[span_19](end_span)."
+        "explanation": "Potti Sriramulu was a prominent Congress leader whose 56-day hunger strike and subsequent death forced the government to create the first linguistic state (Andhra). He was not a member of the SRC."
     },
     {
         "question": "11. Consider the following statements with reference to the linguistic reorganisation of states in independent India:\n1. The separate state of Andhra for the Telugu people came into existence in 1953.\n2. Jawaharlal Nehru was particularly in favour of the movement for linguistic reorganisation of states that came in the wake of the success of the Andhra movement.\nWhich one of the statements given above is/are correct?",
         "options": ["(a) Only 1", "(b) Only 2", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
         "answer": 0,
-        [span_20](start_span)[span_21](start_span)"explanation": "While Andhra was created in 1953, Nehru and other leaders were initially wary of linguistic reorganization[span_20](end_span)[span_21](end_span)."
+        "explanation": "Statement 1 is correct. Statement 2 is incorrect because the top Congress leadership, including Jawaharlal Nehru, Sardar Patel, and Pattabhi Sitaramayya (JVP Committee), initially rejected language as the basis for reorganization of states."
     },
     {
-        "question": "12. Match List I (State) with List II (Full Statehood Granted In):\nA. Goa\nB. Haryana\nC. Meghalaya\nD. Sikkim",
+        "question": "12. Match List I (State) with List II (Full Statehood Granted In):\nA. Goa - 1. 1966\nB. Haryana - 2. 1972\nC. Meghalaya - 3. 1975\nD. Sikkim - 4. 1987\nSelect the correct code:",
         "options": ["(a) A-3, B-1, C-2, D-4", "(b) A-4, B-2, C-1, D-3", "(c) A-3, B-2, C-1, D-4", "(d) A-4, B-1, C-2, D-3"],
         "answer": 3,
-        [span_22](start_span)[span_23](start_span)"explanation": "Matches: Goa (1987), Haryana (1966), Meghalaya (1972), and Sikkim (1975)[span_22](end_span)[span_23](end_span)."
+        "explanation": "Goa attained full statehood in 1987 (previously a UT). Haryana was created in 1966. Meghalaya became a full state in 1972. Sikkim was granted full statehood in 1975."
     }
 ]
