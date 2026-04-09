@@ -1,0 +1,109 @@
+[
+    {
+        "question": "What does the term 'early medieval' denote in Indian history?",
+        "options": [
+            "The period of the Delhi Sultanate",
+            "The intermediate period between ancient and medieval marked by feudalism",
+            "The era of the Mauryan Empire",
+            "The period following the Mughal decline"
+        ],
+        "answer": 1,
+        "explanation": "The term 'early medieval' denotes the intermediate period between 'ancient' and 'medieval', marked by feudalism, political fragmentation, and the proliferation of regional states."
+    },
+    {
+        "question": "In North India, the period from c. 600–750 CE was dominated by the Pushyabhutis of Thaneswar and the:",
+        "options": [
+            "Chahamanas of Ajmer",
+            "Maukharis of Kannauj",
+            "Palas of Bengal",
+            "Rashtrakutas of Deccan"
+        ],
+        "answer": 1,
+        "explanation": "The text states the period from c. 600-750 CE in north India was dominated by the Pushyabhutis of Thaneswar and the Maukharis of Kannauj."
+    },
+    {
+        "question": "Phase I of the period c. 750–1000 CE was marked by the age of three important empires. Which of the following was NOT one of them?",
+        "options": [
+            "Gurjara Pratiharas",
+            "Palas",
+            "Rashtrakutas",
+            "Cholas"
+        ],
+        "answer": 3,
+        "explanation": "The three empires mentioned in the text for Phase I are the Gurjara Pratiharas in north India, the Palas in eastern India, and the Rashtrakutas in the Deccan."
+    },
+    {
+        "question": "Phase II (c. 1000–1200 CE) in North India is primarily known as:",
+        "options": [
+            "The Golden Age of Guptas",
+            "The age of conflict and breakdown into smaller kingdoms",
+            "The era of Buddhist consolidation",
+            "The age of the tripartite struggle"
+        ],
+        "answer": 1,
+        "explanation": "Phase II from c. 1000-1200 CE is primarily known as the age of conflict and breakdown of the tripartite powers into many smaller kingdoms (like the Rajput states)."
+    },
+    {
+        "question": "Which ruling family originally served as feudatories of the Guptas and later gained prominence with their capital at Thanesar?",
+        "options": [
+            "Maukharis",
+            "Pushyabhutis",
+            "Chandellas",
+            "Paramaras"
+        ],
+        "answer": 1,
+        "explanation": "The Pushyabhutis were originally feudatories of the Guptas who gained prominence after the Gupta fall, setting up their capital at Thanesar (Haryana)."
+    },
+    {
+        "question": "Which two major historical sources provide information regarding the Pushyabhuti dynasty?",
+        "options": [
+            "Arthashastra and Indica",
+            "Harshacharita and travelogues of Xuanzang",
+            "Rajatarangini and Mudrarakshasa",
+            "Si-Yu-Ki and Ain-i-Akbari"
+        ],
+        "answer": 1,
+        "explanation": "The two major sources mentioned are the 'Harshacharita' (a biography by Banabhatta) and the travelogues of the Chinese pilgrim Hsuan Tsang/Xuanzang."
+    },
+    {
+        "question": "Who actually laid the foundations of the Pushyabhuti dynasty as its fourth king?",
+        "options": [
+            "Harsha Vardhana",
+            "Rajya Vardhana",
+            "Prabhakar Vardhana",
+            "Grahavarman"
+        ],
+        "answer": 2,
+        "explanation": "Prabhakar Vardhana was the fourth king of the dynasty and the one who actually laid the foundations of the Pushyabhuti dynasty by defeating the Hunas."
+    },
+    {
+        "question": "Prabhakar Vardhana formed a marital alliance by marrying his daughter Rajyashri to which ruler?",
+        "options": [
+            "Devagupta of Malwa",
+            "Shashanka of Gauda",
+            "Pulkesin II of Badami",
+            "Grahavarman of Kannauj"
+        ],
+        "answer": 3,
+        "explanation": "He established important marital alliances with the Maukharis by marrying his daughter Rajyashri to the Maukhari ruler Grahavarman."
+    },
+    {
+        "question": "Who murdered Grahavarman, the ruler of Kannauj?",
+        "options": [
+            "Rajya Vardhana",
+            "Devagupta and Shashanka",
+            "Pulkesin II",
+            "Bhaskaravarman"
+        ],
+        "answer": 1,
+        "explanation": "Grahavarman was murdered by Devagupta (ruler of Malwa) and Shashanka (ruler of Gauda/Bengal)."
+    },
+    {
+        "question": "After defeating the Malwa army, Rajya Vardhana was treacherously killed by:",
+        "options": [
+            "Devagupta",
+            "Shashanka",
+            "Harsha Vardhana",
+            "Dhruvasena II"
+        ],
+        "answer": 1
