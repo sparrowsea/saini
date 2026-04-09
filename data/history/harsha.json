@@ -1,109 +1,406 @@
 [
-    {
-        "question": "What does the term 'early medieval' denote in Indian history?",
-        "options": [
-            "The period of the Delhi Sultanate",
-            "The intermediate period between ancient and medieval marked by feudalism",
-            "The era of the Mauryan Empire",
-            "The period following the Mughal decline"
-        ],
-        "answer": 1,
-        "explanation": "The term 'early medieval' denotes the intermediate period between 'ancient' and 'medieval', marked by feudalism, political fragmentation, and the proliferation of regional states."
-    },
-    {
-        "question": "In North India, the period from c. 600–750 CE was dominated by the Pushyabhutis of Thaneswar and the:",
-        "options": [
-            "Chahamanas of Ajmer",
-            "Maukharis of Kannauj",
-            "Palas of Bengal",
-            "Rashtrakutas of Deccan"
-        ],
-        "answer": 1,
-        "explanation": "The text states the period from c. 600-750 CE in north India was dominated by the Pushyabhutis of Thaneswar and the Maukharis of Kannauj."
-    },
-    {
-        "question": "Phase I of the period c. 750–1000 CE was marked by the age of three important empires. Which of the following was NOT one of them?",
-        "options": [
-            "Gurjara Pratiharas",
-            "Palas",
-            "Rashtrakutas",
-            "Cholas"
-        ],
-        "answer": 3,
-        "explanation": "The three empires mentioned in the text for Phase I are the Gurjara Pratiharas in north India, the Palas in eastern India, and the Rashtrakutas in the Deccan."
-    },
-    {
-        "question": "Phase II (c. 1000–1200 CE) in North India is primarily known as:",
-        "options": [
-            "The Golden Age of Guptas",
-            "The age of conflict and breakdown into smaller kingdoms",
-            "The era of Buddhist consolidation",
-            "The age of the tripartite struggle"
-        ],
-        "answer": 1,
-        "explanation": "Phase II from c. 1000-1200 CE is primarily known as the age of conflict and breakdown of the tripartite powers into many smaller kingdoms (like the Rajput states)."
-    },
-    {
-        "question": "Which ruling family originally served as feudatories of the Guptas and later gained prominence with their capital at Thanesar?",
-        "options": [
-            "Maukharis",
-            "Pushyabhutis",
-            "Chandellas",
-            "Paramaras"
-        ],
-        "answer": 1,
-        "explanation": "The Pushyabhutis were originally feudatories of the Guptas who gained prominence after the Gupta fall, setting up their capital at Thanesar (Haryana)."
-    },
-    {
-        "question": "Which two major historical sources provide information regarding the Pushyabhuti dynasty?",
-        "options": [
-            "Arthashastra and Indica",
-            "Harshacharita and travelogues of Xuanzang",
-            "Rajatarangini and Mudrarakshasa",
-            "Si-Yu-Ki and Ain-i-Akbari"
-        ],
-        "answer": 1,
-        "explanation": "The two major sources mentioned are the 'Harshacharita' (a biography by Banabhatta) and the travelogues of the Chinese pilgrim Hsuan Tsang/Xuanzang."
-    },
-    {
-        "question": "Who actually laid the foundations of the Pushyabhuti dynasty as its fourth king?",
-        "options": [
-            "Harsha Vardhana",
-            "Rajya Vardhana",
-            "Prabhakar Vardhana",
-            "Grahavarman"
-        ],
-        "answer": 2,
-        "explanation": "Prabhakar Vardhana was the fourth king of the dynasty and the one who actually laid the foundations of the Pushyabhuti dynasty by defeating the Hunas."
-    },
-    {
-        "question": "Prabhakar Vardhana formed a marital alliance by marrying his daughter Rajyashri to which ruler?",
-        "options": [
-            "Devagupta of Malwa",
-            "Shashanka of Gauda",
-            "Pulkesin II of Badami",
-            "Grahavarman of Kannauj"
-        ],
-        "answer": 3,
-        "explanation": "He established important marital alliances with the Maukharis by marrying his daughter Rajyashri to the Maukhari ruler Grahavarman."
-    },
-    {
-        "question": "Who murdered Grahavarman, the ruler of Kannauj?",
-        "options": [
-            "Rajya Vardhana",
-            "Devagupta and Shashanka",
-            "Pulkesin II",
-            "Bhaskaravarman"
-        ],
-        "answer": 1,
-        "explanation": "Grahavarman was murdered by Devagupta (ruler of Malwa) and Shashanka (ruler of Gauda/Bengal)."
-    },
-    {
-        "question": "After defeating the Malwa army, Rajya Vardhana was treacherously killed by:",
-        "options": [
-            "Devagupta",
-            "Shashanka",
-            "Harsha Vardhana",
-            "Dhruvasena II"
-        ],
-        "answer": 1
+  {
+    "question": "What does the term 'early medieval' denote in Indian history?",
+    "options": [
+      "The period of the Delhi Sultanate",
+      "The intermediate period between ancient and medieval marked by feudalism",
+      "The era of the Mauryan Empire",
+      "The period following the Mughal decline"
+    ],
+    "answer": 1,
+    "explanation": "The term 'early medieval' denotes the intermediate period between 'ancient' and 'medieval', marked by feudalism, political fragmentation, and the proliferation of regional states."
+  },
+  {
+    "question": "In North India, the period from c. 600–750 CE was dominated by the Pushyabhutis of Thaneswar and the:",
+    "options": [
+      "Chahamanas of Ajmer",
+      "Maukharis of Kannauj",
+      "Palas of Bengal",
+      "Rashtrakutas of Deccan"
+    ],
+    "answer": 1,
+    "explanation": "The text states the period from c. 600-750 CE in north India was dominated by the Pushyabhutis of Thaneswar and the Maukharis of Kannauj."
+  },
+  {
+    "question": "Phase I of the period c. 750–1000 CE was marked by the age of three important empires. Which of the following was NOT one of them?",
+    "options": [
+      "Gurjara Pratiharas",
+      "Palas",
+      "Rashtrakutas",
+      "Cholas"
+    ],
+    "answer": 3,
+    "explanation": "The three empires mentioned in the text for Phase I are the Gurjara Pratiharas in north India, the Palas in eastern India, and the Rashtrakutas in the Deccan."
+  },
+  {
+    "question": "Phase II (c. 1000–1200 CE) in North India is primarily known as:",
+    "options": [
+      "The Golden Age of Guptas",
+      "The age of conflict and breakdown into smaller kingdoms",
+      "The era of Buddhist consolidation",
+      "The age of the tripartite struggle"
+    ],
+    "answer": 1,
+    "explanation": "Phase II from c. 1000-1200 CE is primarily known as the age of conflict and breakdown of the tripartite powers into many smaller kingdoms (like the Rajput states)."
+  },
+  {
+    "question": "Which ruling family originally served as feudatories of the Guptas and later gained prominence with their capital at Thanesar?",
+    "options": [
+      "Maukharis",
+      "Pushyabhutis",
+      "Chandellas",
+      "Paramaras"
+    ],
+    "answer": 1,
+    "explanation": "The Pushyabhutis were originally feudatories of the Guptas who gained prominence after the Gupta fall, setting up their capital at Thanesar (Haryana)."
+  },
+  {
+    "question": "Which two major historical sources provide information regarding the Pushyabhuti dynasty?",
+    "options": [
+      "Arthashastra and Indica",
+      "Harshacharita and travelogues of Xuanzang",
+      "Rajatarangini and Mudrarakshasa",
+      "Si-Yu-Ki and Ain-i-Akbari"
+    ],
+    "answer": 1,
+    "explanation": "The two major sources mentioned are the 'Harshacharita' (a biography by Banabhatta) and the travelogues of the Chinese pilgrim Hsuan Tsang/Xuanzang."
+  },
+  {
+    "question": "Who actually laid the foundations of the Pushyabhuti dynasty as its fourth king?",
+    "options": [
+      "Harsha Vardhana",
+      "Rajya Vardhana",
+      "Prabhakar Vardhana",
+      "Grahavarman"
+    ],
+    "answer": 2,
+    "explanation": "Prabhakar Vardhana was the fourth king of the dynasty and the one who actually laid the foundations of the Pushyabhuti dynasty by defeating the Hunas."
+  },
+  {
+    "question": "Prabhakar Vardhana formed a marital alliance by marrying his daughter Rajyashri to which ruler?",
+    "options": [
+      "Devagupta of Malwa",
+      "Shashanka of Gauda",
+      "Pulkesin II of Badami",
+      "Grahavarman of Kannauj"
+    ],
+    "answer": 3,
+    "explanation": "He established important marital alliances with the Maukharis by marrying his daughter Rajyashri to the Maukhari ruler Grahavarman."
+  },
+  {
+    "question": "Who murdered Grahavarman, the ruler of Kannauj?",
+    "options": [
+      "Rajya Vardhana",
+      "Devagupta and Shashanka",
+      "Pulkesin II",
+      "Bhaskaravarman"
+    ],
+    "answer": 1,
+    "explanation": "Grahavarman was murdered by Devagupta (ruler of Malwa) and Shashanka (ruler of Gauda/Bengal)."
+  },
+  {
+    "question": "After defeating the Malwa army, Rajya Vardhana was treacherously killed by:",
+    "options": [
+      "Devagupta",
+      "Shashanka",
+      "Harsha Vardhana",
+      "Dhruvasena II"
+    ],
+    "answer": 1,
+    "explanation": "Rajya Vardhana defeated the Malwa army and killed Devagupta, but was unfortunately and treacherously killed by Shashanka, the king of Gauda."
+  },
+  {
+    "question": "Before generously supporting Buddhism, Harsha Vardhana was originally a follower of which sect?",
+    "options": [
+      "Jain",
+      "Shaiva",
+      "Vaishnava",
+      "Ajivika"
+    ],
+    "answer": 1,
+    "explanation": "Harsha is known as the last great Hindu king of India, who was originally a Shaiva but also supported Buddhism to a great extent."
+  },
+  {
+    "question": "What does the title 'sakalauttarapathanatha', bestowed upon Harsha by Pulkesin II, mean?",
+    "options": [
+      "Lord of the entire north",
+      "Conqueror of the world",
+      "Protector of the faith",
+      "Lord of the southern seas"
+    ],
+    "answer": 0,
+    "explanation": "Pulkesin II bestowed the title 'Sakalauttarapathanatha' upon him, meaning 'Lord of the entire north'."
+  },
+  {
+    "question": "According to the text, who cut down the Bodhi tree?",
+    "options": [
+      "Devagupta",
+      "Shashanka",
+      "Grahavarman",
+      "Pulkesin II"
+    ],
+    "answer": 1,
+    "explanation": "The text states that Shashanka, the ruler of Gauda, killed Rajya Vardhana and also cut the Bodhi tree."
+  },
+  {
+    "question": "At what age did Harsha Vardhana ascend the throne under highly difficult circumstances?",
+    "options": [
+      "Twelve years",
+      "Sixteen years",
+      "Twenty years",
+      "Twenty-four years"
+    ],
+    "answer": 1,
+    "explanation": "He ascended the throne when he was only sixteen years of age, proving himself to be a great warrior and an able administrator."
+  },
+  {
+    "question": "Who did Harsha immediately march to rescue, as she was believed to be on the verge of committing Sati?",
+    "options": [
+      "His mother",
+      "His wife",
+      "His daughter",
+      "His sister Rajyashri"
+    ],
+    "answer": 3,
+    "explanation": "He immediately marched towards Kannauj and rescued his sister Rajyashri, who was believed to be on the verge of committing Sati."
+  },
+  {
+    "question": "Harsha brought the five 'Indies' under his control. Which of the following was NOT one of them?",
+    "options": [
+      "Punjab",
+      "Kannauj",
+      "Gujarat",
+      "Mithila"
+    ],
+    "answer": 2,
+    "explanation": "The five 'Indies' brought under his control were Punjab, Kannauj, Bengal, Orissa, and Mithila."
+  },
+  {
+    "question": "Under what title was Harsha mentioned in the travel records of the Chinese traveler Xuanzang?",
+    "options": [
+      "Vikramaditya",
+      "Siladitya",
+      "Priyadarshi",
+      "Devanampiya"
+    ],
+    "answer": 1,
+    "explanation": "He assumed the title of 'Siladitya' as mentioned in the travel records of Chinese traveler Xuanzang."
+  },
+  {
+    "question": "Harsha defeated Dhruvasena II, who was the king of:",
+    "options": [
+      "Malwa",
+      "Gauda",
+      "Vallabhi",
+      "Kamrupa"
+    ],
+    "answer": 2,
+    "explanation": "He defeated the Vallabhi king, Dhruvasena II, as mentioned in the Nausasi copper plate inscription."
+  },
+  {
+    "question": "Harsha's southward expansion was halted when he was defeated on the banks of the river Narmada by:",
+    "options": [
+      "Shashanka",
+      "Pulkesin II",
+      "Bhaskaravarman",
+      "Devagupta"
+    ],
+    "answer": 1,
+    "explanation": "Harsha was defeated by Pulkesin II (western Chalukyan King of Badami) on the banks of Narmada."
+  },
+  {
+    "question": "Pulkesin II, who defeated Harsha, belonged to which dynasty?",
+    "options": [
+      "Pallavas",
+      "Western Chalukyas of Badami",
+      "Rashtrakutas",
+      "Cholas"
+    ],
+    "answer": 1,
+    "explanation": "Pulkesin II was the western Chalukyan King of Badami."
+  },
+  {
+    "question": "Where did Harsha ultimately shift his capital from Thaneswar?",
+    "options": [
+      "Prayag",
+      "Pataliputra",
+      "Kannauj",
+      "Ujjain"
+    ],
+    "answer": 2,
+    "explanation": "The capital of Harsha was originally Thaneswar, but he shifted it to Kannauj."
+  },
+  {
+    "question": "Which river formed the southern boundary of Harsha's empire?",
+    "options": [
+      "Godavari",
+      "Krishna",
+      "Narmada",
+      "Tapti"
+    ],
+    "answer": 2,
+    "explanation": "The text explicitly states: 'The Narmada formed the southern boundary of his empire.'"
+  },
+  {
+    "question": "Bhaskaravarman, who accepted Harsha's overlordship in the east, was the king of:",
+    "options": [
+      "Kamrupa",
+      "Vallabhi",
+      "Gauda",
+      "Mithila"
+    ],
+    "answer": 0,
+    "explanation": "In the east, the king of Kamrupa, Bhaskaravarman, accepted his overlordship."
+  },
+  {
+    "question": "In which year did the 'Harsha era' commence, marking the year of his accession?",
+    "options": [
+      "600 CE",
+      "606 CE",
+      "629 CE",
+      "647 CE"
+    ],
+    "answer": 1,
+    "explanation": "Subordinate rulers used the Harsha era of 606 CE, which was the year of accession of Harsha Vardhana."
+  },
+  {
+    "question": "Which Chinese pilgrim is known as the 'Prince of Travelers' and visited India during 629–644 CE?",
+    "options": [
+      "Fa-Hien",
+      "I-Tsing",
+      "Hsuan Tsang (Xuanzang)",
+      "Wang-hiuen-tse"
+    ],
+    "answer": 2,
+    "explanation": "The Chinese pilgrim Hsuan Tsang, also known as the Prince of Travelers and author of Si-Yu-Ki, visited India during 629-644 CE."
+  },
+  {
+    "question": "The grand assembly held at Kannauj in 643 CE gave discourses primarily on:",
+    "options": [
+      "Hinayana doctrines",
+      "Mahayana doctrines",
+      "Shaivite theology",
+      "Jain philosophy"
+    ],
+    "answer": 1,
+    "explanation": "The grand assembly at Kannauj (643 CE) gave discourses on Mahayana doctrines, attended by Xuanzang and representatives of Hinduism, Jainism, and Buddhism."
+  },
+  {
+    "question": "Where did Harsha hold a solemn festival called the 'Mahamoksha Parishad' at the end of every five years?",
+    "options": [
+      "Kannauj",
+      "Thaneswar",
+      "Prayag (Allahabad)",
+      "Varanasi"
+    ],
+    "answer": 2,
+    "explanation": "He celebrated a solemn festival at Prayag (Allahabad) at the end of every five years and held the Mahamoksha Parishad."
+  },
+  {
+    "question": "Which of the following dramas was NOT written by Harsha Vardhana?",
+    "options": [
+      "Priyadarshika",
+      "Ratnavali",
+      "Malavikagnimitram",
+      "Nagananda"
+    ],
+    "answer": 2,
+    "explanation": "Harsha wrote three dramas: Priyadarshika, Ratnavali (romantic comedies), and Nagananda. Malavikagnimitram was written by Kalidasa."
+  },
+  {
+    "question": "Harsha's play 'Nagananda' is based on the story of:",
+    "options": [
+      "Lord Rama",
+      "Bodhisattva Jimutavahana",
+      "King Udayana",
+      "Shiva and Parvati"
+    ],
+    "answer": 1,
+    "explanation": "Nagananda is based on the story of Bodhisattva Jimutavahana."
+  },
+  {
+    "question": "Which inscriptions contain Harsha's signature and exhibit his calligraphic skills?",
+    "options": [
+      "Aihole and Junagadh",
+      "Madhuban and Banskhera",
+      "Allahabad Pillar and Sanchi",
+      "Hathigumpha and Maski"
+    ],
+    "answer": 1,
+    "explanation": "It is presumed he composed the text of the two inscriptions Madhuban and Banskhera, which contain his signature and exhibit his calligraphic skills."
+  },
+  {
+    "question": "According to Banabhatta, Harsha was an accomplished player of which musical instrument?",
+    "options": [
+      "Veena",
+      "Sitar",
+      "Flute",
+      "Tabla"
+    ],
+    "answer": 2,
+    "explanation": "According to Banabhatta, Harsha was also an accomplished flute player."
+  },
+  {
+    "question": "Harsha is credited with establishing a large monastery at which famous educational center?",
+    "options": [
+      "Taxila",
+      "Vikramashila",
+      "Nalanda",
+      "Valabhi"
+    ],
+    "answer": 2,
+    "explanation": "He established a large monastery at Nalanda."
+  },
+  {
+    "question": "Who among the following authored the texts 'Harshacharita' and 'Parvatiparinay'?",
+    "options": [
+      "Mayura",
+      "Bhartrihari",
+      "Matanga Divakara",
+      "Banabhatta"
+    ],
+    "answer": 3,
+    "explanation": "Banabhatta was the author of Harshacharita and Parvatiparinay."
+  },
+  {
+    "question": "Who was the renowned grammarian at Harsha's court who authored 'Vakapadiya'?",
+    "options": [
+      "Patanjali",
+      "Panini",
+      "Bhartrihari",
+      "Mayura"
+    ],
+    "answer": 2,
+    "explanation": "Bhartrihari was a renowned grammarian and the author of Vakapadiya."
+  },
+  {
+    "question": "How many embassies did the contemporary Chinese T'ang Emperor send to Harsha's court?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": 2,
+    "explanation": "The Chinese contemporary T'ang Emperor sent three embassies to his court."
+  },
+  {
+    "question": "Who led the final Chinese embassy that came to India in 647 CE, arriving after Harsha had died?",
+    "options": [
+      "Xuanzang",
+      "Fa-Hien",
+      "Wang-hiuen-tse",
+      "I-Tsing"
+    ],
+    "answer": 2,
+    "explanation": "The last of these embassies, under Wang-hiuen-tse, came to India in 647 CE when Harsha was no longer alive."
+  },
+  {
+    "question": "The Rajput states that emerged during Phase II (1000-1200 CE) eventually had to resist Turkish attacks led by:",
+    "options": [
+      "Babur and Akbar",
+      "Mahmud Ghazni and Mohammad Ghori",
+      "Genghis Khan and Timur",
+      "Nadir Shah and Ahmad Shah Abdali"
+    ],
+    "answer":
