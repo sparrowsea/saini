@@ -195,7 +195,8 @@
     }
 
     function checkPassword() {
-        // .trim() ensures that accidental spaces at the end are ignored
+        alert("Button Clicked! Checking password..."); // <-- DIAGNOSTIC ALERT
+        
         const input = document.getElementById('pass-input').value.trim(); 
         
         if(input === SECRET_PASSWORD) {
@@ -270,4 +271,52 @@
                 btn.classList.add('disabled');
                 if (i === q.answer) btn.classList.add('correct');
                 else if (i === answers[idx]) btn.classList.add('wrong');
-            } else { btn.onclick = () => select
+            } else { btn.onclick = () => select(i); }
+            btn.innerText = opt;
+            optDiv.appendChild(btn);
+        });
+        const expDiv = document.getElementById('explanation');
+        expDiv.style.display = answered ? 'block' : 'none';
+        if(answered) expDiv.innerHTML = "<strong>Explanation:</strong><br>" + q.explanation;
+        document.querySelectorAll('.palette-btn').forEach(b => b.classList.remove('active'));
+        document.getElementById('pal-'+idx).classList.add('active');
+    }
+
+    function select(i) {
+        if(answers[currentIdx] !== null) return;
+        answers[currentIdx] = i;
+        document.getElementById('pal-'+currentIdx).classList.add(i === questions[currentIdx].answer ? 'correct' : 'wrong');
+        showQ(currentIdx);
+    }
+
+    function nextQ() { if(currentIdx < questions.length -1) showQ(currentIdx+1); }
+    function prevQ() { if(currentIdx > 0) showQ(currentIdx-1); }
+
+    function updateTimer() {
+        const remain = end - Date.now();
+        if(remain <= 0) { clearInterval(timerInterval); submitTest(true); return; }
+        const m = Math.floor(remain/60000);
+        const s = Math.floor((remain%60000)/1000);
+        document.getElementById('timer').innerText = m + ":" + (s < 10 ? '0' : '') + s;
+    }
+
+    function submitTest(auto = false) {
+        if(!auto && !confirm("Are you sure you want to end this session?")) return;
+        clearInterval(timerInterval);
+        document.getElementById('test-wrapper').style.display = 'none';
+        document.getElementById('result-screen').style.display = 'flex';
+        let correctCount = 0, incorrectCount = 0, unattemptedCount = 0;
+        answers.forEach((ans, i) => {
+            if (ans === null) unattemptedCount++;
+            else if (ans === questions[i].answer) correctCount++;
+            else incorrectCount++;
+        });
+        document.getElementById('final-score').innerText = correctCount + " / " + questions.length;
+        document.getElementById('correct-count').innerText = correctCount;
+        document.getElementById('incorrect-count').innerText = incorrectCount;
+        document.getElementById('unattempted-count').innerText = unattemptedCount;
+        window.scrollTo(0,0);
+    }
+</script>
+</body>
+</html>
