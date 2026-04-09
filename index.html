@@ -42,6 +42,7 @@
         .jkssb-title { border-bottom-color: #e53e3e; }
         .jkpsc-title { border-bottom-color: #38a169; }
         .upsc-title { border-bottom-color: #d69e2e; }
+        .history-title { border-bottom-color: #319795; } /* New Teal Color for History */
 
         .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 15px; width: 100%; }
         .test-card { background: #fff; padding: 25px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center; cursor: pointer; border-top: 4px solid #007bff; transition: transform 0.2s;}
@@ -49,6 +50,7 @@
         .test-card.jkssb-card { border-top-color: #e53e3e; }
         .test-card.jkpsc-card { border-top-color: #38a169; }
         .test-card.upsc-card { border-top-color: #d69e2e; }
+        .test-card.history-card { border-top-color: #319795; } /* New Teal Color for History */
         
         .test-card h3 { margin: 0 0 10px 0; font-size: 1.3rem; color: #2d3748; }
         .btn-start { background: #2d3748; color: white; padding: 10px; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; width: 100%; margin-top: 10px;}
@@ -104,6 +106,15 @@
                     <h3 style="color:#d69e2e;">Forum FLT-1 (Part 3)</h3>
                     <p>Questions 61 to 100</p>
                     <button class="btn-start" style="background:#d69e2e;">Start</button>
+                </div>
+            </div>
+
+            <h3 class="subject-title history-title">History Module</h3>
+            <div class="card-grid">
+                <div class="test-card history-card" onclick="startTest('history/harsha')">
+                    <h3 style="color:#319795;">Harsha Vardhana</h3>
+                    <p>Early Medieval India</p>
+                    <button class="btn-start" style="background:#319795;">Start</button>
                 </div>
             </div>
 
@@ -312,47 +323,4 @@
     }
 
     function nextQ() { if(currentIdx < questions.length -1) showQ(currentIdx+1); }
-    function prevQ() { if(currentIdx > 0) showQ(currentIdx-1); }
-
-    function updateTimer() {
-        const remain = end - Date.now();
-        if(remain <= 0) {
-            clearInterval(timerInterval);
-            submitTest(true);
-            return;
-        }
-        const m = Math.floor(remain/60000);
-        const s = Math.floor((remain%60000)/1000);
-        document.getElementById('timer').innerText = m + ":" + (s < 10 ? '0' : '') + s;
-    }
-
-    function submitTest(auto = false) {
-        if(!auto && !confirm("Are you sure you want to end this session?")) return;
-        clearInterval(timerInterval);
-        document.getElementById('test-wrapper').style.display = 'none';
-        document.getElementById('result-screen').style.display = 'flex';
-        
-        let correctCount = 0;
-        let incorrectCount = 0;
-        let unattemptedCount = 0;
-
-        answers.forEach((ans, i) => {
-            if (ans === null) {
-                unattemptedCount++;
-            } else if (ans === questions[i].answer) {
-                correctCount++;
-            } else {
-                incorrectCount++;
-            }
-        });
-
-        document.getElementById('final-score').innerText = correctCount + " / " + questions.length;
-        document.getElementById('correct-count').innerText = correctCount;
-        document.getElementById('incorrect-count').innerText = incorrectCount;
-        document.getElementById('unattempted-count').innerText = unattemptedCount;
-        
-        window.scrollTo(0,0);
-    }
-</script>
-</body>
-</html>
+    function prevQ() { if(currentIdx > 0) showQ
